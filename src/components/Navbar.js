@@ -5,9 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './../App.css';
 
 class Navbar extends Component {
-    state = {isMobile: 'navbar-nav row navbar-ul'}  //initial state as fullscreen
+    constructor(props) {
+        super(props);
+        this.state = {isMobile: false};
+        if(window.innerWidth<1200){
+            this.state = {isMobile: true};
+        }
+      }
     componentDidMount() {
-
         window.addEventListener('resize', () => {   //check screensize
             this.setState({
                 isMobile: window.innerWidth < 1200
