@@ -27,7 +27,9 @@ class ContactUs extends Component {
                     <div className="col-lg-6 ">
                         <h1 className="contact-head-text">Find your great role by joining Us !</h1>
                         <br />
-                        <h4 className="contact-smaller-text">sasfdjblkjewjfbe;bELSj bf;iwbebweouf b;oeubf;uweb;uweiu ew;iu biwe ;iwue iwueiuwei ;w;efi uwe;fu</h4>
+                        <h5 className="contact-smaller-text">We are Creative Turnkey Projects Pvt Ltd. We are leading service provider in the field of turnkey projects, industrial structures, Pre-Engineering Buildings (PEB Contractors), Mechanical Electrical and Piping (MEP Contracts) etc.
+
+Join us and have great career ahead…….</h5>
                     </div>
                     <div className="col-lg-3"></div>
                 </div>
@@ -58,6 +60,7 @@ class ContactUs extends Component {
                             <input className="submit-btn" type="submit" value="Submit" />
                         </div>
                     </form>
+                    f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />
             </div>
         </div>
         );
