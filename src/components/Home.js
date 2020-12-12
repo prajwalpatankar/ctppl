@@ -310,12 +310,12 @@ class Home extends Component {
                     </section>
                     {/* <!-- End Cta Section --> */}
 
-                    {/* <!-- ======= Portfolio Section ======= --> */}
+                    {/* <!-- ======= Glimpse Section ======= --> */}
                     <section id="portfolio" class="portfolio">
                         <div class="container" data-aos="fade-up">
 
                             <div class="section-title">
-                                <h2>Portfolio</h2>
+                                <h2>Glimpse of Completed Projects</h2>
                                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                             </div>
 
@@ -323,9 +323,9 @@ class Home extends Component {
                                 <div class="col-lg-12 d-flex justify-content-center">
                                     <ul id="portfolio-flters">
                                         <li data-filter="*" class="filter-active">All</li>
-                                        <li data-filter=".filter-app">App</li>
-                                        <li data-filter=".filter-card">Card</li>
-                                        <li data-filter=".filter-web">Web</li>
+                                        <li data-filter=".filter-app">Industrial</li>
+                                        <li data-filter=".filter-card">Residential</li>
+                                        <li data-filter=".filter-web">Institutional</li>
                                     </ul>
                                 </div>
                             </div>
@@ -336,12 +336,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>App 1</h4>
-                                            <p>App</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Industrial 1</h4>
+                                            <p>Industrial</p>
                                         </div>
                                     </div>
                                 </div>
@@ -350,12 +346,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Web 3</h4>
-                                            <p>Web</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Residential 1</h4>
+                                            <p>Residential</p>
                                         </div>
                                     </div>
                                 </div>
@@ -364,12 +356,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>App 2</h4>
-                                            <p>App</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Industrial 2</h4>
+                                            <p>Industrial</p>
                                         </div>
                                     </div>
                                 </div>
@@ -378,12 +366,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Card 2</h4>
-                                            <p>Card</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Institutional 2</h4>
+                                            <p>Institutional</p>
                                         </div>
                                     </div>
                                 </div>
@@ -392,12 +376,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Web 2</h4>
-                                            <p>Web</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Residential 2</h4>
+                                            <p>Residential</p>
                                         </div>
                                     </div>
                                 </div>
@@ -406,12 +386,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>App 3</h4>
-                                            <p>App</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Industrial 3</h4>
+                                            <p>Industrial</p>
                                         </div>
                                     </div>
                                 </div>
@@ -420,12 +396,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Card 1</h4>
-                                            <p>Card</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Institutional 1</h4>
+                                            <p>Institutional</p>
                                         </div>
                                     </div>
                                 </div>
@@ -434,12 +406,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Card 3</h4>
-                                            <p>Card</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Institutional 3</h4>
+                                            <p>Institutional</p>
                                         </div>
                                     </div>
                                 </div>
@@ -448,12 +416,8 @@ class Home extends Component {
                                     <div class="portfolio-wrap">
                                         <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="" />
                                         <div class="portfolio-info">
-                                            <h4>Web 3</h4>
-                                            <p>Web</p>
-                                            <div class="portfolio-links">
-                                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                            </div>
+                                            <h4>Residential 3</h4>
+                                            <p>Residential</p>
                                         </div>
                                     </div>
                                 </div>
@@ -462,7 +426,7 @@ class Home extends Component {
 
                         </div>
                     </section>
-                    {/* <!-- End Portfolio Section --> */}
+                    {/* <!-- End Glimpse Section --> */}
 
                     {/* <!-- ======= Team Section ======= --> */}
                     <section id="team" class="team section-bg">
@@ -478,7 +442,7 @@ class Home extends Component {
                                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                                     <div class="member">
                                         <div class="member-img">
-                                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                                            <img src="assets/img/team/aniket.jpg" class="img-fluid" alt="" />
                                             <div class="social">
                                                 <a href=""><i class="icofont-twitter"></i></a>
                                                 <a href=""><i class="icofont-facebook"></i></a>
@@ -487,7 +451,7 @@ class Home extends Component {
                                             </div>
                                         </div>
                                         <div class="member-info">
-                                            <h4>Walter White</h4>
+                                            <h4>Aniket</h4>
                                             <span>Chief Executive Officer</span>
                                         </div>
                                     </div>
@@ -496,7 +460,7 @@ class Home extends Component {
                                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                                     <div class="member">
                                         <div class="member-img">
-                                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                                            <img src="assets/img/team/aniket.jpg" class="img-fluid" alt="" />
                                             <div class="social">
                                                 <a href=""><i class="icofont-twitter"></i></a>
                                                 <a href=""><i class="icofont-facebook"></i></a>
@@ -505,8 +469,8 @@ class Home extends Component {
                                             </div>
                                         </div>
                                         <div class="member-info">
-                                            <h4>Sarah Jhonson</h4>
-                                            <span>Product Manager</span>
+                                            <h4>person1</h4>
+                                            <span>CEO2</span>
                                         </div>
                                     </div>
                                 </div>
@@ -514,7 +478,7 @@ class Home extends Component {
                                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                                     <div class="member">
                                         <div class="member-img">
-                                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                                            <img src="assets/img/team/aniket.jpg" class="img-fluid" alt="" />
                                             <div class="social">
                                                 <a href=""><i class="icofont-twitter"></i></a>
                                                 <a href=""><i class="icofont-facebook"></i></a>
@@ -523,8 +487,8 @@ class Home extends Component {
                                             </div>
                                         </div>
                                         <div class="member-info">
-                                            <h4>William Anderson</h4>
-                                            <span>CTO</span>
+                                            <h4>person1</h4>
+                                            <span>CEO</span>
                                         </div>
                                     </div>
                                 </div>
@@ -532,7 +496,7 @@ class Home extends Component {
                                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                                     <div class="member">
                                         <div class="member-img">
-                                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                                            <img src="assets/img/team/aniket.jpg" class="img-fluid" alt="" />
                                             <div class="social">
                                                 <a href=""><i class="icofont-twitter"></i></a>
                                                 <a href=""><i class="icofont-facebook"></i></a>
@@ -541,7 +505,7 @@ class Home extends Component {
                                             </div>
                                         </div>
                                         <div class="member-info">
-                                            <h4>Amanda Jepson</h4>
+                                            <h4>person1</h4>
                                             <span>Accountant</span>
                                         </div>
                                     </div>
