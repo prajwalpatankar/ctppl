@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactNavbar from "react-responsive-animate-navbar";
+// import ReactNavbar from "react-responsive-animate-navbar";
 import { Link } from 'react-router-dom';
-import logo from './../logo.png'
+// import logo from './../logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../App.css';
 
@@ -86,7 +86,7 @@ class Navbar extends Component {
                                 <li className="nav-item"><Link to="/OurPolicies">Our Policies</Link></li>
                                 <li className="nav-item"><Link to="/OurServices">Our Services</Link></li>
                                 <li className="nav-item"><Link to="/OurClientele">Our Clientele</Link></li>
-                                <li className="drop-down"><a href="">Projects</a>
+                                <li className="drop-down"><a href="/Projects">Projects</a>
                                     <ul>
                                         <li><Link to="/Completed">Completed Projects</Link></li>
                                         <li><Link to="/OnGoing">On Going Projects</Link></li>

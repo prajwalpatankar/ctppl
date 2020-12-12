@@ -9,6 +9,7 @@ import OnGoing from './components/OnGoing';
 import Completed from './components/Completed';
 import ContactUs from './components/ContactUs';
 import { BrowserRouter, Route } from 'react-router-dom'
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/OnGoing' component={OnGoing} />
         <Route path='/Completed' component={Completed} />
         <Route path='/ContactUs' component={ContactUs} />
+        <Route path='/Projects' component={Projects} />
       </div>
     </BrowserRouter>
   );

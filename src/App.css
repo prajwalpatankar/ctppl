@@ -2068,3 +2068,20 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+.Project-Titles {
+  text-align: center;
+  padding-bottom: 30px; 
+}
+.Project-Titles a {
+  display: inline-block;
+}
+
+.Project-Titles-tit {
+  display: inline-block;
+}
+
+.Project-Titles a:hover {
+  text-decoration: none;
+}
