@@ -86,7 +86,7 @@ class Navbar extends Component {
                                 <li className="nav-item"><Link to="/OurPolicies">Our Policies</Link></li>
                                 <li className="nav-item"><Link to="/OurServices">Our Services</Link></li>
                                 <li className="nav-item"><Link to="/OurClientele">Our Clientele</Link></li>
-                                <li className="drop-down"><a href="/Projects">Projects</a>
+                                <li className="drop-down"><Link to="/Projects">Projects</Link>
                                     <ul>
                                         <li><Link to="/Completed">Completed Projects</Link></li>
                                         <li><Link to="/OnGoing">On Going Projects</Link></li>
