@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../App.css'
 
 
 class About extends Component {
@@ -8,7 +9,7 @@ class About extends Component {
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
-                        <h2>About Us</h2>
+                        <h2 className="page-title">About Us</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. </p>
                     </div>
 

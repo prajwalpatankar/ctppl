@@ -18,9 +18,12 @@ class ContactUs extends Component {
     }
     render() {
         return (
-            <div>
-                <div className="get-in-touch">
-                    <h1 className="title ">Career with us</h1>
+            <div data-aos="fade-up">
+                <div className="get-in-touch" >
+                    <br /><br /><br /><br />
+                    <div className="section-title">   
+                        <h2 className="page-title">Career with us</h2>
+                    </div>
                 </div>
                 <div className="row d-flex justify-content-left">
                     <div className="col-lg-3"></div>
