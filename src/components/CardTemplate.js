@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle, CardSubtitle,
   } from 'reactstrap';
 
 
 class CardTemplate extends Component {
-    constructor(props) {
-        super(props);
-      }
+
       render () {
-        let { id, name, img } = this.props.person;
+        let {  name, img } = this.props.person;
         return (
           <div>
             <br /><br /><br />
@@ -19,9 +17,8 @@ class CardTemplate extends Component {
               <CardImg height= "150vw" top width="100%"  src={img} alt="Card image cap" ></CardImg>
               <CardBody>
                 <CardTitle>{name}</CardTitle>
-                {/* <CardSubtitle>{company}</CardSubtitle> */}
-                {/* <CardText>{description}</CardText> */}
-                {/* <Button color="danger" onClick={() => this.props.removePerson(id)}>Delete</Button> */}
+                <CardSubtitle></CardSubtitle>
+                <CardText></CardText>
               </CardBody>
             </Card>
           </div>

@@ -7,7 +7,7 @@ class OurPolicies extends Component {
                 <br /><br /><br /><br /><br /><br />
                 <div className="section-title" data-aos="fade-up"> 
                     <h2 className="page-title ">Our Policies</h2>
-                    <h6 className="title-description"></h6>
+                    <h6 className="title-description">-</h6>
                 </div>
                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
                     <h2>Our Mission</h2> <br />
