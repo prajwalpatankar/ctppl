@@ -7,9 +7,9 @@ import OurServices from './components/OurServices';
 import OurClientele from './components/OurClientele';
 import OnGoing from './components/OnGoing';
 import Completed from './components/Completed';
-import ContactUs from './components/ContactUs';
 import { BrowserRouter, Route } from 'react-router-dom'
 import Projects from './components/Projects';
+import ContactMain from './components/ContactMain';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path='/OurClientele' component={OurClientele} />
         <Route path='/OnGoing' component={OnGoing} />
         <Route path='/Completed' component={Completed} />
-        <Route path='/ContactUs' component={ContactUs} />
+        <Route path='/ContactUs:completed' component={ContactMain} />
         <Route path='/Projects:completed' component={Projects} />
       </div>
     </BrowserRouter>

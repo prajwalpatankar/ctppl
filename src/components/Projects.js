@@ -41,7 +41,7 @@ class Projects extends Component {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2 className="page-title">Projects</h2>
-                        <h6 className="title-description">List of completed Projects </h6>
+                        <h6 className="title-description">Details of our Projects </h6>
                     </div>
                     <div className="Project-Titles">
                         <div className="row">

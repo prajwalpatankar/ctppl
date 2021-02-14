@@ -92,7 +92,12 @@ class Navbar extends Component {
                                         <li><Link to="/Projects:0">On Going Projects</Link></li>
                                     </ul>
                                 </li>
-                                <li className="nav-item"><Link to="/ContactUs">Contact Us</Link></li>
+                                <li className="drop-down"><Link to="/ContactUs:1">Contact Us</Link>
+                                    <ul>
+                                        <li><Link to="/ContactUs:1">Get in touch</Link></li>
+                                        <li><Link to="/ContactUs:0">Career with us</Link></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                         {/* <!-- .nav-menu --> */}

@@ -36,8 +36,8 @@
 
 
 .get-in-touch {
-  max-width: 800px;
-  margin: 50px auto;
+  max-width: 950px;
+  margin: 30px auto;
   position: relative;
 
 }
@@ -61,7 +61,11 @@
 }
 
 .title-description {
-  color: gray;
+  color: #444444;
+}
+
+.contact-form {
+  width: 120%;
 }
 
 .contact-form .form-field {
@@ -113,14 +117,6 @@
   border: none;
   width:200px;
   cursor: pointer;
-}
-
-.contact-head-text {
-  color: #20B2CE;
-}
-
-.contact-smaller-text {
-color: #012322;
 }
 
 

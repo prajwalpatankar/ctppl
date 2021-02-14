@@ -12,7 +12,7 @@ class Counts extends Component {
                                 <div className="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                                     <div className="count-box">
                                         <span classNameName="counter-up"><CountUp
-                                            end={65}
+                                            end={46}
                                             duration={4}
                                         />
                                         </span>

@@ -48,14 +48,14 @@ class Home extends Component {
                             </div>
                         </div>
                         {/* <div class="text-center">
-                            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                             <Link to="#about" class="btn-get-started scrollto">Get Started</Link>
                         </div> */}
 
                         <div className="row icon-boxes">
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-funds-box-line"></i></div>
-                                    <h4 className="title"><a href="OurServices">Our Services</a></h4>
+                                    <h4 className="title"> <Link to="OurServices">Our Services</Link></h4>
                                     <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ class Home extends Component {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-home-heart-line"></i></div>
-                                    <h4 className="title"><a href="OurClientele">Our Clientele</a></h4>
+                                    <h4 className="title"> <Link to="OurClientele">Our Clientele</Link></h4>
                                     <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ class Home extends Component {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-building-line"></i></div>
-                                    <h4 className="title"><a href="Completed">Completed Projects</a></h4>
+                                    <h4 className="title"> <Link to="Projects:1">Completed Projects</Link></h4>
                                     <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ class Home extends Component {
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-building-3-line"></i></div>
-                                    <h4 className="title"><a href="OnGoing">On Going Projects</a></h4>
+                                    <h4 className="title"> <Link to="Projects:0">On Going Projects</Link></h4>
                                     <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@ class Home extends Component {
                     {/* <!-- End Glimpse Section --> */}
 
                     {/* <!-- ======= Team Section ======= --> */}
-                    <section id="team" className="team section-bg">
+                    {/* <section id="team" className="team section-bg">
                         <div className="container" data-aos="fade-up">
 
                             <div className="section-title">
@@ -288,10 +288,10 @@ class Home extends Component {
                                         <div className="member-img">
                                             <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
                                             <div className="social">
-                                                <a href="/"><i className="icofont-twitter"></i></a>
-                                                <a href="/"><i className="icofont-facebook"></i></a>
-                                                <a href="/"><i className="icofont-instagram"></i></a>
-                                                <a href="/"><i className="icofont-linkedin"></i></a>
+                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
+                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
+                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
+                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -306,10 +306,10 @@ class Home extends Component {
                                         <div className="member-img">
                                             <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
                                             <div className="social">
-                                                <a href="/"><i className="icofont-twitter"></i></a>
-                                                <a href="/"><i className="icofont-facebook"></i></a>
-                                                <a href="/"><i className="icofont-instagram"></i></a>
-                                                <a href="/"><i className="icofont-linkedin"></i></a>
+                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
+                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
+                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
+                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -324,10 +324,10 @@ class Home extends Component {
                                         <div className="member-img">
                                             <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
                                             <div className="social">
-                                                <a href="/"><i className="icofont-twitter"></i></a>
-                                                <a href="/"><i className="icofont-facebook"></i></a>
-                                                <a href="/"><i className="icofont-instagram"></i></a>
-                                                <a href="/"><i className="icofont-linkedin"></i></a>
+                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
+                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
+                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
+                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -342,10 +342,10 @@ class Home extends Component {
                                         <div className="member-img">
                                             <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
                                             <div className="social">
-                                                <a href="/"><i className="icofont-twitter"></i></a>
-                                                <a href="/"><i className="icofont-facebook"></i></a>
-                                                <a href="/"><i className="icofont-instagram"></i></a>
-                                                <a href="/"><i className="icofont-linkedin"></i></a>
+                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
+                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
+                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
+                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -358,7 +358,7 @@ class Home extends Component {
                             </div>
 
                         </div>
-                    </section>
+                    </section> */}
                     {/* <!-- End Team Section --> */}
 
                     {/* <!-- ======= Pricing Section ======= --> */}
@@ -384,7 +384,7 @@ class Home extends Component {
                                             <li className="na">Massa ultricies mi</li>
                                         </ul>
                                         <div className="btn-wrap">
-                                            <a href="/" className="btn-buy">Buy Now</a>
+                                             <Link to="/" className="btn-buy">Buy Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -401,7 +401,7 @@ class Home extends Component {
                                             <li className="na">Massa ultricies mi</li>
                                         </ul>
                                         <div className="btn-wrap">
-                                            <a href="/" className="btn-buy">Buy Now</a>
+                                             <Link to="/" className="btn-buy">Buy Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -418,7 +418,7 @@ class Home extends Component {
                                             <li>Massa ultricies mi</li>
                                         </ul>
                                         <div className="btn-wrap">
-                                            <a href="/" className="btn-buy">Buy Now</a>
+                                             <Link to="/" className="btn-buy">Buy Now</Link>
                                         </div>
                                     </div>
                                 </div>
