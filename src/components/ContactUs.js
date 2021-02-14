@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './sections/Footer';
 import '../App.css';
 
 class ContactUs extends Component {
@@ -65,6 +66,7 @@ Join us and have great career ahead…….</h5>
                     </form>
                     f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />f<br />
             </div>
+            <Footer />
         </div>
         );
     }

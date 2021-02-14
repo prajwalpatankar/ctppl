@@ -74,22 +74,22 @@ class Navbar extends Component {
             //     </div>
             // </div>
             <div>
-                <header id="header" class="fixed-top">
-                    <div class="container d-flex align-items-center">
-                        <h1 class="logo mr-auto"><Link to="/">CTPPL</Link></h1>
+                <header id="header" className="fixed-top">
+                    <div className="container d-flex align-items-center">
+                        <h1 className="logo mr-auto"><Link to="/"><img src="assets/img/final_logo_PNG.png" alt="pctppl_logo"></img></Link></h1>
                         {/* <!-- Uncomment below if you prefer to use an image logo --></div>
-                <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
-                        <nav class="nav-menu d-none d-lg-block">
+                <!-- <a href="index.html" className="logo mr-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>--> */}
+                        <nav className="nav-menu d-none d-lg-block">
                             <ul>
                                 <li className="nav-item"><Link to="/">Home</Link></li>
                                 <li className="nav-item"><Link to="/AboutUs">About Us</Link></li>
                                 <li className="nav-item"><Link to="/OurPolicies">Our Policies</Link></li>
                                 <li className="nav-item"><Link to="/OurServices">Our Services</Link></li>
                                 <li className="nav-item"><Link to="/OurClientele">Our Clientele</Link></li>
-                                <li className="drop-down"><Link to="/Projects">Projects</Link>
+                                <li className="drop-down"><Link to="/Projects:1">Projects</Link>
                                     <ul>
-                                        <li><Link to="/Completed">Completed Projects</Link></li>
-                                        <li><Link to="/OnGoing">On Going Projects</Link></li>
+                                        <li><Link to="/Projects:1">Completed Projects</Link></li>
+                                        <li><Link to="/Projects:0">On Going Projects</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item"><Link to="/ContactUs">Contact Us</Link></li>

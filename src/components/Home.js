@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import About from './sections/About';
-import Video from './sections/Video';
 import Services from './sections/Services';
 import { Link } from 'react-router-dom';
+import '../App.css';
+import Footer from './sections/Footer';
 
 
 class Home extends Component {
@@ -42,7 +43,7 @@ class Home extends Component {
                     <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9 text-center">
-                                <h1> Patankar's Creative Turnkey Projects Pvt. Ltd.</h1>
+                                <span><h1 className="patankars"> PATANKAR's</h1><h1 className="main-title-ctppl"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
                                 <h2>We are team of bla bla bla something</h2>
                             </div>
                         </div>
@@ -97,11 +98,12 @@ class Home extends Component {
 
                     {/* <!-- ======= About Video Section ======= --> */}
                     
-                        <Video />
+                        {/* <Video /> */}
 
                     {/* <!-- End About Video Section --> */}
 
                     {/* <!-- ======= Clients Section ======= --> */}
+{/*                     
                     <section id="clients" className="clients section-bg">
                         <div className="container">
 
@@ -134,7 +136,7 @@ class Home extends Component {
                             </div>
 
                         </div>
-                    </section>
+                    </section> */}
                     {/* <!-- End Clients Section --> */}
 
                     {/* <!-- ======= Services Section ======= --> */}
@@ -570,76 +572,7 @@ class Home extends Component {
                 {/* <!-- End #main --> */}
 
                 {/* <!-- ======= Footer ======= --> */}
-                <footer id="footer">
-
-                    <div className="footer-top">
-                        <div className="container">
-                            <div className="row">
-
-                                <div className="col-lg-3 col-md-6 footer-contact">
-                                    <h3>CTPPL</h3>
-                                    <p>
-                                        addree <br />
-              goes<br />
-              here <br /><br />
-                                        <strong>Phone:</strong> +91 9767726744<br />
-                                        <strong>Email:</strong> prakash.patankar@ctppl.com<br />
-                                    </p>
-                                </div>
-
-                                <div className="col-lg-2 col-md-6 footer-links">
-                                    <h4>Useful Links</h4>
-                                    <ul>
-                                        <li><i className="bx bx-chevron-right"></i> <a href="/">Home</a></li>               
-                                        <li><i className="bx bx-chevron-right"></i> <a href="/">About us</a></li>
-                                        <li><i className="bx bx-chevron-right"></i> <a href="/">123123123</a></li>
-                                        <li><i className="bx bx-chevron-right"></i> <a href="/">234234234</a></li>
-                                        <li><i className="bx bx-chevron-right"></i> <a href="/">234234234</a></li>
-                                    </ul>
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 footer-links">
-                                    <h4>Our Services</h4>
-                                    <ul>
-                                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="bx bx-chevron-right"></i> <a href="/">111</a></li>
-                                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="bx bx-chevron-right"></i> <a href="/">222</a></li>
-                                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="bx bx-chevron-right"></i> <a href="/">333</a></li>
-                                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="bx bx-chevron-right"></i> <a href="/">444</a></li>
-                                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="bx bx-chevron-right"></i> <a href="/">555</a></li>
-                                    </ul>
-                                </div>
-
-                                {/* <div className="col-lg-4 col-md-6 footer-newsletter">
-                                    <h4>Join Our Newsletter</h4>
-                                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                                    <form action="" method="post">
-                                        <input type="email" name="email" /><input type="submit" value="Subscribe" />
-                                    </form>
-                                </div> */}
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="container d-md-flex py-4">
-
-                        <div className="mr-md-auto text-center text-md-left">
-                            <div className="copyright">
-                                &copy; Copyright <strong><span>PCTPPL</span></strong>. All Rights Reserved
-        </div>
-                            <div className="credits">
-                                Made with ❤ by <a href="https://github.com/prajwalpatankar"><strong><span>PCTPPL </span></strong>Web Team. <br /></a>
-                            </div>
-                        </div>
-                        <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                            <a href="/" className="twitter"><i className="bx bxl-twitter"></i></a>
-                            <a href="/" className="facebook"><i className="bx bxl-facebook"></i></a>
-                            <a href="/" className="instagram"><i className="bx bxl-instagram"></i></a>
-                            <a href="/" className="google-plus"><i className="bx bxl-skype"></i></a>
-                            <a href="/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                        </div>
-                    </div>
-                </footer>
+                <Footer />
 
                 <Link to="/" className="back-to-top"><i className="ri-arrow-up-line"></i></Link>
                 {/* <div id="preloader"></div> */}

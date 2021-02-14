@@ -24,7 +24,7 @@ function App() {
         <Route path='/OnGoing' component={OnGoing} />
         <Route path='/Completed' component={Completed} />
         <Route path='/ContactUs' component={ContactUs} />
-        <Route path='/Projects' component={Projects} />
+        <Route path='/Projects:completed' component={Projects} />
       </div>
     </BrowserRouter>
   );

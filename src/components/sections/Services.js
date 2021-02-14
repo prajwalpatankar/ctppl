@@ -93,7 +93,7 @@ class Services extends Component {
 
                     </div>
 
-                </div>
+                </div>               
             </section>
         );
     }

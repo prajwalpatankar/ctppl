@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './sections/Footer';
 import Services from './sections/Services';
 
 class OurServices extends Component {
@@ -7,6 +8,7 @@ class OurServices extends Component {
             <div>
                 <br /><br />
                 <Services />
+                <Footer />
             </div>
         );
     }

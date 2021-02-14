@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardTemplate from './CardTemplate';
 import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
+import Footer from './sections/Footer';
 
 class OurClientele extends Component {
     constructor() {
@@ -283,7 +284,7 @@ class OurClientele extends Component {
                     name: "",
                     img: "assets/img/clients/Kakkad-group-300x95.png"
                 },
-                
+
             ]
         }
     }
@@ -295,23 +296,28 @@ class OurClientele extends Component {
     render() {
         let peopleCards = this.state.people.map(person => {
             return (
-                <Col sm="4">
+                <Col lg="2" md="4" sm="6">
                     <CardTemplate key={person.id} removePerson={this.removePerson.bind(this)} person={person} />
                 </Col>
             )
         })
         return (
-            <div className="clientele" data-aos="fade-up" >
-                <br /><br /><br /><br /><br /><br />
-                <div className="section-title"> 
-                    <h2 className="page-title ">Our Clients</h2>
-                    <h6 className="title-description">Providing Services to leading brands</h6>
+            <div>
+                <div className="clientele" data-aos="fade-up" >
+                    <br /><br /><br /><br /><br /><br />
+                    <div className="section-title">
+                        <h2 className="page-title ">Our Clients</h2>
+                        <h6 className="title-description">Providing Services to leading brands</h6>
+                    </div>
+                    <Container fluid data-aos="fade-up" data-aos-delay="200">
+                        <Row>
+                            {peopleCards}
+                        </Row>
+                    </Container>
+                    <br /><br />
+
                 </div>
-                <Container fluid data-aos="fade-up" data-aos-delay="200">
-                    <Row>
-                        {peopleCards}
-                    </Row>
-                </Container>
+                <Footer />
             </div>
         )
     }
