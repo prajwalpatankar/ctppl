@@ -289,6 +289,10 @@ class OurClientele extends Component {
         }
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     removePerson(id) {
         this.setState({ people: this.state.people.filter(person => person.id !== id) });
     }

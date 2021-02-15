@@ -13,6 +13,10 @@ class Home extends Component {
         this.state = { triggCounter: false };
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     // isBottom(el) {
     //     return el.getBoundingClientRect().bottom <= window.innerHeight;
     //   }

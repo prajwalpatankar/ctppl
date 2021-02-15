@@ -364,34 +364,36 @@ class Completed extends Component {
         }
     }
 
-
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
 
     render() {
         let industrial = this.state.industrial.map(person => {
             return (
-                <Col lg="4" md= "12" sm="12">
+                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let institutional = this.state.institutional.map(person => {
             return (
-                <Col lg="4" md= "12" sm="12">
+                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let residential = this.state.residential.map(person => {
             return (
-                <Col lg="4" md= "12" sm="12">
+                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let itbuildings = this.state.itbuildings.map(person => {
             return (
-                <Col lg="4" md= "12" sm="12">
+                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
@@ -399,14 +401,14 @@ class Completed extends Component {
         let mep = this.state.mep.map(person => {
             if(person.img !== "") {
                 return (
-                    <Col lg="4" md= "12" sm="12">
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                         <ProjectCard key={person.id} person={person} />
                     </Col>
                 )
             }
             else {
                 return (
-                    <Col lg="4" md= "12" sm="12">
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
                         <NoImageCard key={person.id} person={person} />
                     </Col>
                 )

@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 class Counts extends Component {
     render() {
         return (
-            <section id="counts" className="counts section-bg">
+            <section id="counts" className="counts section-bg" data-aos="zoon-in">
                         <div className="container">
 
                             <div className="row justify-content-end">
@@ -14,6 +14,7 @@ class Counts extends Component {
                                         <span classNameName="counter-up"><CountUp
                                             end={46}
                                             duration={4}
+                                            delay={0}
                                         />
                                         </span>
                                         <p>Happy Clients</p>
@@ -25,6 +26,7 @@ class Counts extends Component {
                                     <span classNameName="counter-up"><CountUp
                                             end={30}
                                             duration={4}
+                                            delay={0.1}
                                         />
                                         </span>
                                         <p>Years of experience</p>
@@ -36,6 +38,7 @@ class Counts extends Component {
                                     <span classNameName="counter-up"><CountUp
                                             end={11} 
                                             duration={4}
+                                            delay={0.2}
                                         />
                                         </span>
                                         <p> Million Safe man-hours</p>
@@ -47,6 +50,7 @@ class Counts extends Component {
                                         <span classNameName="counter-up"><CountUp
                                             end={46}
                                             duration={4}
+                                            delay={0.3}
                                         />
                                         </span>
                                         <p>% Rate of Repeat Orders</p>
@@ -58,6 +62,7 @@ class Counts extends Component {
                                     <span classNameName="counter-up"><CountUp
                                             end={50}
                                             duration={4}
+                                            delay={0.4}
                                         />
                                         </span>
                                         <p>Projects</p>

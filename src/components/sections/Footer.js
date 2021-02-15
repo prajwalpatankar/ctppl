@@ -13,7 +13,7 @@ class Footer extends Component {
                         <div className="row">
 
                             <div className="col-lg-3 col-md-6 footer-contact">
-                                <h3>CTPPL</h3>
+                                <h3>PCTPPL</h3>
                                 <p><a href="https://www.google.com/maps/place/Creative+Turnkey+Projects+Pvt,+Ltd/@18.4850216,73.7959744,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2bfd3849df21d:0x299ed1dd59ae92fa!8m2!3d18.4850165!4d73.7981631" target="_blank" rel="noreferrer">
                                     spandan office no.8,<br />above state bank of india,<br /> opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />411 058, Warje, Pune, Maharashtra 411058
                                     </a><br /><br />

@@ -20,6 +20,10 @@ class Projects extends Component {
         }
       }
 
+      componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+      
     showComplete = () =>{
         this.setState({completed: 1});
     }

@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import '../../App.css'
 
 class Services extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+      
     render() {
         return (
             <section id="services" className="services section-bg">
