@@ -83,21 +83,30 @@ class AboutUs extends Component {
                 </div>
                 <br /><br />
                 <div className="row">
-                    <div className="col-lg-6">
+
+
+                    <div className="col-sm-6 ">
+                        <h6>Received appreciation from M/s. Phoenix Mecano India Pvt. Ltd. for <br /><strong>Valuable contribution towards construction.</strong> </h6>
+                        <img src="assets/img/phoenix.png" alt="phoenix" />
+
+                        <div className="row">
+                            <div className="col-sm-6 "><br />
+                                <h6>Appreciated by M/s. Exide Industries Limited as <br /><strong>Best Safety Contractor of the Year </strong></h6><br />
+                                <img src="assets/img/safety.png" height="400px" alt="safety_award" />
+                            </div>
+                            <div className="col-sm-6"><br />
+                                <h6>Received greatest appreciation  by M/s. Corning Technologies India Pvt. Ltd. for valuable support and participation for construction of Varale ZP School</h6>
+                                <img src="assets/img/Corning.png" height="400px" alt="Corning" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-sm-6">
                         <h6>We are ISO 9001:2015 certified</h6>
                         <img src="assets/img/iso.png" alt="iso_certificate" />
                     </div>
-                    <div className="col-lg-6">
-                        <h6>Received appreciation from M/s. Phoenix Mecano India Pvt. Ltd. for <br /><strong>Valuable contribution towards construction.</strong> </h6>
-                        <img src="assets/img/phoenix.png" alt="phoenix" />
-                        <div className="col-lg-3 mini-box">
-                            <h6>Appreciated by M/s. Exide Industries Limited as <br /><strong>Best Safety Contractor of the Year </strong></h6>
-                            <img src="assets/img/safety.png" height="400px" alt="safety_award" />
-                            <h6>Received greatest appreciation  by M/s. Corning Technologies India Pvt. Ltd. for<br /> valuable support and participation for construction of Varale ZP School</h6>
-                            <img src="assets/img/Corning.png" height="400px" alt="Corning" />
-                        </div>
-                        <br /><br /><br />
-                    </div>
+
+
                 </div>
 
                 <br /><br />
