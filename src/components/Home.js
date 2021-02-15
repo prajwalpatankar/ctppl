@@ -10,21 +10,21 @@ class Home extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {triggCounter : false };
-      }
+        this.state = { triggCounter: false };
+    }
 
     // isBottom(el) {
     //     return el.getBoundingClientRect().bottom <= window.innerHeight;
     //   }
-      
+
     //   componentDidMount() {
     //     document.addEventListener('scroll', this.trackScrolling);
     //   }
-      
+
     //   componentWillUnmount() {
     //     document.removeEventListener('scroll', this.trackScrolling);
     //   }
-      
+
     //   trackScrolling = () => {
     //     const wrappedElement = document.getElementById('counts');
     //     if (this.isBottom(wrappedElement)) {
@@ -91,56 +91,19 @@ class Home extends Component {
 
                 <main id="main">
 
-                    {/* <!-- ======= About Section ======= --> */}                        
-                        <About />
+                    {/* <!-- ======= About Section ======= --> */}
+                    <About />
 
                     {/* <!-- End About Section --> */}
 
                     {/* <!-- ======= About Video Section ======= --> */}
-                    
-                        {/* <Video /> */}
+
+                    {/* <Video /> */}
 
                     {/* <!-- End About Video Section --> */}
 
-                    {/* <!-- ======= Clients Section ======= --> */}
-{/*                     
-                    <section id="clients" className="clients section-bg">
-                        <div className="container">
-
-                            <div className="row">
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-1.png" className="img-fluid" alt="" />
-                                </div>
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-2.png" className="img-fluid" alt="" />
-                                </div>
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-3.png" className="img-fluid" alt="" />
-                                </div>
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-4.png" className="img-fluid" alt="" />
-                                </div>
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-5.png" className="img-fluid" alt="" />
-                                </div>
-
-                                <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                                    <img src="assets/img/clients/client-6.png" className="img-fluid" alt="" />
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </section> */}
-                    {/* <!-- End Clients Section --> */}
-
                     {/* <!-- ======= Services Section ======= --> */}
-                        <Services />
+                    <Services />
                     {/* <!-- End Sevices Section --> */}
 
                     {/* <!-- ======= Cta Section ======= --> */}
@@ -155,7 +118,7 @@ class Home extends Component {
                     {/* <!-- End Cta Section --> */}
 
                     {/* <!-- ======= Glimpse Section ======= --> */}
-                    <section id="portfolio" className="portfolio">
+                    {/* <section id="portfolio" className="portfolio">
                         <div className="container" data-aos="fade-up">
 
                             <div className="section-title">
@@ -269,165 +232,10 @@ class Home extends Component {
                             </div>
 
                         </div>
-                    </section>
+                    </section> */}
                     {/* <!-- End Glimpse Section --> */}
 
-                    {/* <!-- ======= Team Section ======= --> */}
-                    {/* <section id="team" className="team section-bg">
-                        <div className="container" data-aos="fade-up">
 
-                            <div className="section-title">
-                                <h2>Team</h2>
-                                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                            </div>
-
-                            <div className="row">
-
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                                    <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
-                                            <div className="social">
-                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
-                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
-                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
-                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
-                                            </div>
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>Aniket</h4>
-                                            <span>Chief Executive Officer</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                                    <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
-                                            <div className="social">
-                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
-                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
-                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
-                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
-                                            </div>
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>person1</h4>
-                                            <span>CEO2</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                                    <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
-                                            <div className="social">
-                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
-                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
-                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
-                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
-                                            </div>
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>person1</h4>
-                                            <span>CEO</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                                    <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/aniket.jpg" className="img-fluid" alt="" />
-                                            <div className="social">
-                                                 <Link to="/"><i className="icofont-twitter"></i></Link>
-                                                 <Link to="/"><i className="icofont-facebook"></i></Link>
-                                                 <Link to="/"><i className="icofont-instagram"></i></Link>
-                                                 <Link to="/"><i className="icofont-linkedin"></i></Link>
-                                            </div>
-                                        </div>
-                                        <div className="member-info">
-                                            <h4>person1</h4>
-                                            <span>Accountant</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </section> */}
-                    {/* <!-- End Team Section --> */}
-
-                    {/* <!-- ======= Pricing Section ======= --> */}
-                    {/* <section id="pricing" className="pricing">
-                        <div className="container" data-aos="fade-up">
-
-                            <div className="section-title">
-                                <h2>Pricing</h2>
-                                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                            </div>
-
-                            <div className="row">
-
-                                <div className="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
-                                    <div className="box">
-                                        <h3>Free</h3>
-                                        <h4><sup>$</sup>0<span> / month</span></h4>
-                                        <ul>
-                                            <li>Aida dere</li>
-                                            <li>Nec feugiat nisl</li>
-                                            <li>Nulla at volutpat dola</li>
-                                            <li className="na">Pharetra massa</li>
-                                            <li className="na">Massa ultricies mi</li>
-                                        </ul>
-                                        <div className="btn-wrap">
-                                             <Link to="/" className="btn-buy">Buy Now</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-                                    <div className="box featured">
-                                        <h3>Business</h3>
-                                        <h4><sup>$</sup>19<span> / month</span></h4>
-                                        <ul>
-                                            <li>Aida dere</li>
-                                            <li>Nec feugiat nisl</li>
-                                            <li>Nulla at volutpat dola</li>
-                                            <li>Pharetra massa</li>
-                                            <li className="na">Massa ultricies mi</li>
-                                        </ul>
-                                        <div className="btn-wrap">
-                                             <Link to="/" className="btn-buy">Buy Now</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
-                                    <div className="box">
-                                        <h3>Developer</h3>
-                                        <h4><sup>$</sup>29<span> / month</span></h4>
-                                        <ul>
-                                            <li>Aida dere</li>
-                                            <li>Nec feugiat nisl</li>
-                                            <li>Nulla at volutpat dola</li>
-                                            <li>Pharetra massa</li>
-                                            <li>Massa ultricies mi</li>
-                                        </ul>
-                                        <div className="btn-wrap">
-                                             <Link to="/" className="btn-buy">Buy Now</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </section> */}
-                    {/* <!-- End Pricing Section --> */}
 
                     {/* <!-- ======= Frequently Asked Questions Section ======= --> */}
                     <section id="faq" className="faq section-bg">
@@ -445,7 +253,7 @@ class Home extends Component {
                                         <div id="faq-list-1" className="collapse show" data-parent=".faq-list">
                                             <p>
                                                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
+                                            </p>
                                         </div>
                                     </li>
 
@@ -454,7 +262,7 @@ class Home extends Component {
                                         <div id="faq-list-2" className="collapse" data-parent=".faq-list">
                                             <p>
                                                 Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
+                                            </p>
                                         </div>
                                     </li>
 
@@ -463,7 +271,7 @@ class Home extends Component {
                                         <div id="faq-list-3" className="collapse" data-parent=".faq-list">
                                             <p>
                                                 Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
+                                            </p>
                                         </div>
                                     </li>
 
@@ -472,7 +280,7 @@ class Home extends Component {
                                         <div id="faq-list-4" className="collapse" data-parent=".faq-list">
                                             <p>
                                                 Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
+                                            </p>
                                         </div>
                                     </li>
 
@@ -481,7 +289,7 @@ class Home extends Component {
                                         <div id="faq-list-5" className="collapse" data-parent=".faq-list">
                                             <p>
                                                 Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
+                                            </p>
                                         </div>
                                     </li>
 

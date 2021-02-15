@@ -359,6 +359,7 @@ class Completed extends Component {
                         {mep}                        
                     </Row>
                 </Container>
+                <br /><br />
             </div>
         )
     }

@@ -36,10 +36,11 @@ class ContactMain extends Component {
             contact = <Job />
         }
         return (
-            <section id="projects" className="projects">
+            <div id="projects" className="projects">
                 <br /><br /><br />
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
+                        <br /><br />
                         <h2 className="page-title">Get in touch</h2>
                         <h6 className="title-description">-</h6>
                     </div>
@@ -56,7 +57,7 @@ class ContactMain extends Component {
                 </div>
                 {contact}
                 <Footer />
-            </section>
+            </div>
         );
     }
 }

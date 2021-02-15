@@ -38,8 +38,6 @@
 .get-in-touch {
   max-width: 950px;
   margin: 30px auto;
-  position: relative;
-
 }
 
 .page-title {
@@ -65,11 +63,10 @@
 }
 
 .contact-form {
-  width: 120%;
+  width: 100%;
 }
 
 .contact-form .form-field {
-  position: relative;
   margin: 32px 0;
 }
 .contact-form .input-text {
@@ -491,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #hero h2 {
-  color: #5e5e5e;
+  color: white;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -1279,7 +1276,6 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
-  margin-left: 40px;
 }
 
 #footer .footer-top .footer-contact {

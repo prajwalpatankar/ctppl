@@ -4,7 +4,7 @@ import '../App.css'
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div data-aos="fade-up">
                 <div className="row">
                     <div className="col-md-2">
                         <p>&nbsp;</p>
@@ -38,7 +38,7 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row">
+                    <form className="contact-form row" data-aos="fade-up">
                         <div className="form-field col-lg-6">
                             <input id="name" className="input-text js-input" type="text" required />
                             <label className="label" for="name">Name</label>

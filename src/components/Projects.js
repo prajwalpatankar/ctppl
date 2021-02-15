@@ -36,10 +36,11 @@ class Projects extends Component {
             projects=<OnGoing />
         }
         return (
-            <section id="projects" className="projects"> 
+            <div id="projects" className="projects"> 
                 <br /><br /><br />
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
+                    <br /><br />
                         <h2 className="page-title">Projects</h2>
                         <h6 className="title-description">Details of our Projects </h6>
                     </div>
@@ -56,7 +57,7 @@ class Projects extends Component {
                 </div>
                 {projects}
                 <Footer />
-            </section>
+            </div>
         );
     }
 }
