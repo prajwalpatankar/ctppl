@@ -15,7 +15,7 @@ class Contact extends Component {
                         <p>Spandan office no.8, above state bank of india,<br />opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />Warje, Pune, Maharashtra 411058</p>
                         <br />
                         <h3>Working Hours</h3>
-                        <p>10.00 am to 6.00 pm<br />Monday to Saturday</p>
+                        <p>10.00 am to 7.00 pm<br />Monday to Saturday</p>
                         <br />
                         <h3>Contact Details </h3>
                         <p><strong>Phone:</strong> +91-9767726744<br /><strong>Email:</strong> prakash.patankar@ctppl.com</p>

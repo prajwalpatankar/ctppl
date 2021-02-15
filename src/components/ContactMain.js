@@ -42,7 +42,7 @@ class ContactMain extends Component {
                     <div className="section-title">
                         <br /><br />
                         <h2 className="page-title">Get in touch</h2>
-                        <h6 className="title-description">-</h6>
+                        {/* <h6 className="title-description">-</h6> */}
                     </div>
                     <div className="Project-Titles">
                         <div className="row">

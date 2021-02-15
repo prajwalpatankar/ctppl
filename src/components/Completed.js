@@ -128,6 +128,41 @@ class Completed extends Component {
                     desc : "Industrial Project | Area- 37,400 sq. ft | cost- 3,09,30,489.21/- | Architect- Gayatri bio-organics Ltd | Client- FABS | PMC- FABS | Location- Sangareddy Hayderabad",
                     img: "assets/img/projects/completed/Gaytri-Sangareddy-2.jpg"
                 },
+                {
+                    id: 37,
+                    name: "Exide Industries Ltd, Taloja",
+                    type: 1, 
+                    desc : "UGWT & Road, | Cost - 107 Lacs, | Consultant - PK Associates, | Location - Taloja",
+                    img: "assets/img/projects/ongoing/Exide-Indus-Taloja-site-107Lacs.jpg"
+                },
+                {
+                    id: 38,
+                    name: "WalMart India Private Limited, Tirupati",
+                    type: 1, 
+                    desc : "Area - 75600 sq.ft., | Cost - 764 Lacs, | Architect-Framework Interiors, PMC- JLL, | Location-Tirupati, Andhra Pradesh",
+                    img: "assets/img/projects/ongoing/Walmart-tirupati-764lacs.jpeg"
+                },
+                {
+                    id: 39,
+                    name: "Mahindra Vehicle Manufactures Ltd. Pune",
+                    type: 1, 
+                    desc : "Industrial Project | Area: 50,400 sq. ft | Cost: 6,82,00,000/- | Architect: Edifice Consultants Pvt. Ltd. (Edifice) | Client: Mahindra Vehicle Manufacturers Ltd (MVML) | PMC: Tata Consulting Engineers Limited. (TCE) | Location: MIDC Chakan-Pune",
+                    img: "assets/img/projects/ongoing/Mahindra-for-ongoing.jpg"
+                },
+                {
+                    id: 40,
+                    name: "Wirtgen India Pvt Ltd. Pune",
+                    type: 1,
+                    desc : "Industrial Project | Area: 2,15,280.00 sq. ft | Cost -1165 Lacs | Architect: Venkataramanan Associates | Client: Wirtgen India pvt Ltd | PMC: AMS Consultant | Location: Yavat Pune",
+                    img: "assets/img/projects/ongoing/Wirtgen.jpeg"
+                },
+                {
+                    id: 41,
+                    name: "Century Rayon, Kalyan",
+                    type: 1, 
+                    desc : "Industrial projects | Area – 53,800sqft | Cost- 885 Lacs | Architect- Lele and Associates | Location- Kalyan",
+                    img: "assets/img/projects/ongoing/Century-Rayon.jpeg"
+                },
             ],
             institutional: [
                 {
@@ -216,6 +251,41 @@ class Completed extends Component {
                     desc : "Residential Project. | Area-1,20,000Sqft. | Cost-150 Lacs. | Location - Pune",
                     img: "assets/img/projects/completed/hari_ganga.jpg"
                 },
+                {
+                    id: 42,
+                    name: "Profile Empyrean, Pune",
+                    type: 2, 
+                    desc : "Residential Project Area- 1,00,000 Sqft cost- 1 1,80,00,000/- Architect- Ankur Associates Consultant- Fidesto Projects Pvt. Ltd. Location- Pashan, Pune",
+                    img: "assets/img/projects/ongoing/Profile-Empyrean-Ongoing.jpg"
+                },
+                {
+                    id: 43,
+                    name: "Krishna Sankul, Kolhapur",
+                    type: 2, 
+                    desc : "Commercial Projects | Area- 7300 Sqft | cost- 250 Lacs | Architect- Vishwanath Musale | Consultant- Ravi patil | Location- Kolhapur",
+                    img: "assets/img/projects/ongoing/Krishna-sankul-Ongoing.jpg"
+                },
+                {
+                    id: 44,
+                    name: "Xrbia Abode Developers Pvt Ltd. Pune",
+                    type: 2, 
+                    desc : "Cost - 300 Lacs, | Location-Ambhi Pune.",
+                    img: "assets/img/projects/ongoing/Xrbia-Ambhi-site-Concrete-road-.jpg"
+                },
+                {
+                    id: 45,
+                    name: "Xrbia Abode Developers Pvt Ltd., Pune",
+                    type: 2, 
+                    desc : "Cost - 250 Lacs, | Location-Jambhul Pune.",
+                    img: "assets/img/projects/ongoing/Xrbia-Jambhul-site-Concrete-road-.jpg"
+                },
+                {
+                    id: 48,
+                    name: "Godrej Hill Side, Pune",
+                    type: 2, 
+                    desc : "Area - 90,000 sq.ft., | Cost - 500 Lacs | Location - Mhalunge, Pune",
+                    img: "assets/img/projects/completed/Godrej-Mamurdi2.jpg"        //add photo
+                },
             ],
             itbuildings: [
                 {
@@ -238,6 +308,13 @@ class Completed extends Component {
                     type: 3, 
                     desc : "Area -1,50,000Sqft. | Cost - 250 Lacs. | Location-Baner,Pune.",
                     img: "assets/img/projects/completed/alfa_laval.jpg"
+                },
+                {
+                    id: 45,
+                    name: "Advansys, Hinjewadi, Pune",
+                    type: 3, 
+                    desc : "Area-50,000 Sqft | cost Rs.9,52,73,031/- | Architect- Dandekar and Associate | Consultant-Dandekar and Associate | Location- Hinjewadi, Pune",
+                    img: "assets/img/projects/ongoing/Advansys-Ongoing.jpg"
                 },
             ],
             mep: [
@@ -268,7 +345,21 @@ class Completed extends Component {
                     type: 4, 
                     desc : "Location – Pune | Area – 10,000 Sq.Ft. | Cost – 8.5 Lacs | Consultant – Wadia Techno Engineering",
                     img: "assets/img/projects/completed/Rooms-XMLs-MEP.jpg"   
-                }
+                },
+                {
+                    id: 46,
+                    name: "Gumtree Traps Pvt Ltd., Goa",
+                    type: 4, 
+                    desc : "Area - 5,500 sqft, | Cost -48 Lacs, | Architect -EXCELARCH Architects & Engineers, |Location - GOA,INDIA",
+                    img: ""
+                },
+                {
+                    id: 47,
+                    name: "Wirtgen India Pvt Ltd., Pune",
+                    type: 4, 
+                    desc : "Area - 2,15,280.00 sqft, | Cost - 1.5 crore, | Architect - Venkataramanan Associates, PMC - AMS Consultant, | Location - Yavat Pune.",
+                    img: ""
+                },
             ]
         }
     }
@@ -279,28 +370,28 @@ class Completed extends Component {
     render() {
         let industrial = this.state.industrial.map(person => {
             return (
-                <Col lg="6" md= "12" sm="12">
+                <Col lg="4" md= "12" sm="12">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let institutional = this.state.institutional.map(person => {
             return (
-                <Col lg="6" md= "12" sm="12">
+                <Col lg="4" md= "12" sm="12">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let residential = this.state.residential.map(person => {
             return (
-                <Col lg="6" md= "12" sm="12">
+                <Col lg="4" md= "12" sm="12">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
         })
         let itbuildings = this.state.itbuildings.map(person => {
             return (
-                <Col lg="6" md= "12" sm="12">
+                <Col lg="4" md= "12" sm="12">
                     <ProjectCard key={person.id} person={person} />
                 </Col>
             )
@@ -308,14 +399,14 @@ class Completed extends Component {
         let mep = this.state.mep.map(person => {
             if(person.img !== "") {
                 return (
-                    <Col lg="6" md= "12" sm="12">
+                    <Col lg="4" md= "12" sm="12">
                         <ProjectCard key={person.id} person={person} />
                     </Col>
                 )
             }
             else {
                 return (
-                    <Col lg="6" md= "12" sm="12">
+                    <Col lg="4" md= "12" sm="12">
                         <NoImageCard key={person.id} person={person} />
                     </Col>
                 )

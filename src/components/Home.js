@@ -56,7 +56,7 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-funds-box-line"></i></div>
                                     <h4 className="title"> <Link to="OurServices">Our Services</Link></h4>
-                                    <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                    <p className="description">Delivering diverse Turnkey Construction Projects within the stipulated time.</p>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-home-heart-line"></i></div>
                                     <h4 className="title"> <Link to="OurClientele">Our Clientele</Link></h4>
-                                    <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                    <p className="description">Providing Services to leading brands</p>
                                 </div>
                             </div>
 
@@ -72,7 +72,7 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-building-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:1">Completed Projects</Link></h4>
-                                    <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                    <p className="description">Have a look at our <strong>Completed</strong> Projects</p>
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-building-3-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:0">On Going Projects</Link></h4>
-                                    <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                    <p className="description">Have a look at our <strong>On Going</strong> Projects</p>
                                 </div>
                             </div>
 

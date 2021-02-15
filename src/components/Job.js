@@ -25,7 +25,7 @@ class Job extends Component {
                     <div className="col-lg-6 ">
                         <h3 className="page-title">Find your great role by joining Us !</h3>
                         <br />
-                        <h6>We, Creative Turnkey Projects Pvt Ltd. are leading service provider in the field of turnkey projects, industrial structures, Pre-Engineering Buildings (PEB Contractors), Mechanical Electrical and Piping (MEP Contracts) etc.
+                        <h6>We, Patankar's Creative Turnkey Projects Pvt Ltd. are leading service provider in the field of turnkey projects, Industrial structures, Residential buildings, Institutional Building, Pre-Engineering Buildings and MEP Works.
                             <br />Join us and have great career ahead!</h6>
                     </div>
                     <div className="col-lg-3"></div>

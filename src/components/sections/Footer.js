@@ -30,7 +30,7 @@ class Footer extends Component {
                                     <li><i className="bx bx-chevron-right"></i> <Link to="/OurServices">Our Services</Link></li>
                                     <li><i className="bx bx-chevron-right"></i> <Link to="/OurClientele">Our Clientele</Link></li>
                                     <li><i className="bx bx-chevron-right"></i> <Link to="/Projects">Projects</Link></li>
-                                    <li><i className="bx bx-chevron-right"></i> <Link to="/ContactUs">Contact Us</Link></li>
+                                    <li><i className="bx bx-chevron-right"></i> <Link to="/ContactUs:0">Contact Us</Link></li>
                                 </ul>
                             </div>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
