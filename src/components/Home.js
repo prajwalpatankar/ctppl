@@ -48,7 +48,7 @@ class Home extends Component {
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9 text-center">
                                 <span><h1 className="patankars"> PATANKAR's</h1><h1 className="main-title-ctppl"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
-                                <h2>We are team of bla bla bla something</h2>
+                                <h2 data-aos="zoom-in-up" data-aos-delay="1000">We <strong >Dream!</strong> We <strong>Plan!</strong> We <strong>Achieve!</strong></h2>
                             </div>
                         </div>
                         {/* <div class="text-center">
