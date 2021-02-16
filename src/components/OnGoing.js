@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProjectCard from './ProjectCard';
-// import NoImageCard from './NoImageCard';
+import NoImageCard from './NoImageCard';
 import { Container, Row, Col } from 'reactstrap';
 import '../App.css';
 
@@ -14,14 +14,14 @@ class OnGoing extends Component {
                     name: "Sudarshan Chemicals Ltd., Mahad",
                     type: 1, 
                     desc : "Industrial Sheds | Cost - 500 Lacs ",
-                    img: "assets/img/projects/ongoing/Parkland-New-190719.jpg" //remove photo
+                    img: "" 
                 },
                 {
                     id: 6,
                     name: "Sudarshan Chemicals Ltd., Roha",
                     type: 2, 
                     desc : "Industrial Sheds| Cost - 800 Lacs ",
-                    img: "assets/img/projects/ongoing/Parkland-New-190719.jpg"  //remove photo
+                    img: "" 
                 },
             ],
             residential: [
@@ -65,45 +65,80 @@ class OnGoing extends Component {
 
     render() {
         let industrial = this.state.industrial.map(person => {
-            return (
-                <Col lg="4" md= "12" sm="12" data-aos="flip-right">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
         })
         // let institutional = this.state.institutional.map(person => {
-        //     return (
-        //         <Col lg="4" md= "12" sm="12" data-aos="flip-right">
-        //             <ProjectCard key={person.id} person={person} />
-        //         </Col>
-        //     )
-        // })
-        let residential = this.state.residential.map(person => {
-            return (
-                <Col lg="4" md= "12" sm="12" data-aos="flip-right">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
-        })
-        // let itbuildings = this.state.itbuildings.map(person => {
-        //     return (
-        //         <Col lg="4" md= "12" sm="12" data-aos="flip-right">
-        //             <ProjectCard key={person.id} person={person} />
-        //         </Col>
-        //     )
-        // })
-
-        // let mep = this.state.mep.map(person => {
         //     if(person.img !== "") {
         //         return (
-        //             <Col lg="4" md= "12" sm="12" data-aos="flip-right">
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
         //                 <ProjectCard key={person.id} person={person} />
         //             </Col>
         //         )
         //     }
         //     else {
         //         return (
-        //             <Col lg="4" md= "12" sm="12" data-aos="flip-right">
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+        //                 <NoImageCard key={person.id} person={person} />
+        //             </Col>
+        //         )
+        //     }
+        // })
+        let residential = this.state.residential.map(person => {
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+        })
+        // let itbuildings = this.state.itbuildings.map(person => {
+        //     if(person.img !== "") {
+        //         return (
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+        //                 <ProjectCard key={person.id} person={person} />
+        //             </Col>
+        //         )
+        //     }
+        //     else {
+        //         return (
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+        //                 <NoImageCard key={person.id} person={person} />
+        //             </Col>
+        //         )
+        //     }
+        // })
+        // let mep = this.state.mep.map(person => {
+        //     if(person.img !== "") {
+        //         return (
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+        //                 <ProjectCard key={person.id} person={person} />
+        //             </Col>
+        //         )
+        //     }
+        //     else {
+        //         return (
+        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
         //                 <NoImageCard key={person.id} person={person} />
         //             </Col>
         //         )

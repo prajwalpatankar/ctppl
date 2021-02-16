@@ -333,6 +333,13 @@ class Completed extends Component {
                     img: ""   
                 },
                 {
+                    id: 46,
+                    name: "Gumtree Traps Pvt Ltd., Goa",
+                    type: 4, 
+                    desc : "Area - 5,500 sqft, | Cost -48 Lacs, | Architect -EXCELARCH Architects & Engineers, |Location - GOA,INDIA",
+                    img: ""
+                },
+                {
                     id: 35,
                     name: "Hotel Cocoon, Pune",
                     type: 4, 
@@ -345,13 +352,6 @@ class Completed extends Component {
                     type: 4, 
                     desc : "Location – Pune | Area – 10,000 Sq.Ft. | Cost – 8.5 Lacs | Consultant – Wadia Techno Engineering",
                     img: "assets/img/projects/completed/Rooms-XMLs-MEP.jpg"   
-                },
-                {
-                    id: 46,
-                    name: "Gumtree Traps Pvt Ltd., Goa",
-                    type: 4, 
-                    desc : "Area - 5,500 sqft, | Cost -48 Lacs, | Architect -EXCELARCH Architects & Engineers, |Location - GOA,INDIA",
-                    img: ""
                 },
                 {
                     id: 47,
@@ -371,32 +371,68 @@ class Completed extends Component {
 
     render() {
         let industrial = this.state.industrial.map(person => {
-            return (
-                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
         })
         let institutional = this.state.institutional.map(person => {
-            return (
-                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
         })
         let residential = this.state.residential.map(person => {
-            return (
-                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
         })
         let itbuildings = this.state.itbuildings.map(person => {
-            return (
-                <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-                    <ProjectCard key={person.id} person={person} />
-                </Col>
-            )
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
         })
         let mep = this.state.mep.map(person => {
             if(person.img !== "") {

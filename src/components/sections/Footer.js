@@ -53,7 +53,7 @@ class Footer extends Component {
                             &copy; Copyright <strong><span>PCTPPL</span></strong>. All Rights Reserved
                         </div>
                         <div className="credits">
-                            Made with ❤ by <Link to="https://github.com/prajwalpatankar"><strong><span>PCTPPL </span></strong>Web Team. <br /></Link>
+                            Made with ❤ by <a href="https://github.com/prajwalpatankar"><strong><span>PCTPPL </span></strong>Web Team. <br /></a>
                         </div>
 
                     </div>
