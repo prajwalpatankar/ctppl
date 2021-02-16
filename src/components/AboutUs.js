@@ -19,7 +19,7 @@ class AboutUs extends Component {
 
     render() {
         return (
-            <div>
+            <div className="ofl-hid">
                 <br /><br /><br />
                 <About />
                 <Counts />
