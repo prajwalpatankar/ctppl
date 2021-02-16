@@ -32,6 +32,14 @@ class Projects extends Component {
         this.setState({completed: 0});
     }
 
+    BackToTop() {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+    }
+
     render() {
         let projects;
         if(this.state.completed) {
@@ -60,6 +68,7 @@ class Projects extends Component {
                     </div>
                 </div>
                 {projects}
+                <button className="back-to-top" onClick={this.BackToTop}><i className="ri-arrow-up-line"></i></button>
                 <Footer />
             </div>
         );

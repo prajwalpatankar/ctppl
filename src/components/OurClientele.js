@@ -297,6 +297,14 @@ class OurClientele extends Component {
         this.setState({ people: this.state.people.filter(person => person.id !== id) });
     }
 
+    BackToTop() {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+    }
+
     render() {
         let peopleCards = this.state.people.map(person => {
             return (
@@ -321,6 +329,7 @@ class OurClientele extends Component {
                     <br /><br />
 
                 </div>
+                <button className="back-to-top" onClick={this.BackToTop}><i className="ri-arrow-up-line"></i></button>
                 <Footer />
             </div>
         )

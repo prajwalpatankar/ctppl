@@ -17,6 +17,13 @@ class Home extends Component {
         window.scrollTo(0, 0)
       }
 
+    BackToTop() {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+    }
     // isBottom(el) {
     //     return el.getBoundingClientRect().bottom <= window.innerHeight;
     //   }
@@ -45,6 +52,8 @@ class Home extends Component {
                 {/* <!-- ======= Hero Section ======= --> */}
                 <section id="hero" className="d-flex align-items-center">
                     <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
+                        {/* <img src="assets/img/ctppl_logo.png" height="50px" alt="ctppl" />
+                        <img src="assets/img/final_logo_PNG.png" height="50px" alt="pctppl"/> */}
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9 text-center">
                                 <span><h1 className="patankars"> PATANKAR's</h1><h1 className="main-title-ctppl"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
@@ -97,6 +106,7 @@ class Home extends Component {
 
                     {/* <!-- ======= About Section ======= --> */}
                     <About />
+                    <button data-aos="zoom-in-up" data-aos-delay="500" className="btn-learn-more"><Link to="/AboutUs">Learn More</Link></button> <br /><br /><br />
 
                     {/* <!-- End About Section --> */}
 
@@ -106,20 +116,22 @@ class Home extends Component {
 
                     {/* <!-- End About Video Section --> */}
 
-                    {/* <!-- ======= Services Section ======= --> */}
-                    <Services />
-                    {/* <!-- End Sevices Section --> */}
-
                     {/* <!-- ======= Cta Section ======= --> */}
                     <section id="cta" className="cta">
                         <div className="container" data-aos="zoom-in">
                             <div className="text-center">
-                                <h3>seprator looks good</h3>
-                                <p>some more content here</p>
+                                <h3>Symbol of Passion</h3>
+                                <p>Catalyst of Growth</p>
                             </div>
                         </div>
                     </section>
                     {/* <!-- End Cta Section --> */}
+
+                    {/* <!-- ======= Services Section ======= --> */}
+                    <Services />
+                    {/* <!-- End Sevices Section --> */}
+
+                    
 
                     {/* <!-- ======= Glimpse Section ======= --> */}
                     {/* <section id="portfolio" className="portfolio">
@@ -242,7 +254,7 @@ class Home extends Component {
 
 
                     {/* <!-- ======= Frequently Asked Questions Section ======= --> */}
-                    <section id="faq" className="faq section-bg">
+                    {/* <section id="faq" className="faq section-bg">
                         <div className="container" data-aos="fade-up">
 
                             <div className="section-title">
@@ -301,7 +313,7 @@ class Home extends Component {
                             </div>
 
                         </div>
-                    </section>
+                    </section> */}
                     {/* <!-- End Frequently Asked Questions Section --> */}
 
                     {/* <!-- ======= Contact Section ======= --> */}
@@ -386,7 +398,7 @@ class Home extends Component {
                 {/* <!-- ======= Footer ======= --> */}
                 <Footer />
 
-                <Link to="/" className="back-to-top"><i className="ri-arrow-up-line"></i></Link>
+                <button className="back-to-top" onClick={this.BackToTop}><i className="ri-arrow-up-line"></i></button>
                 {/* <div id="preloader"></div> */}
 
             </div>

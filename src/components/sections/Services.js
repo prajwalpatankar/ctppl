@@ -26,7 +26,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bx-arch"></i>
                                 </div>
-                                <h4><a href="/">Industrial Structures</a></h4>
+                                <h4> Industrial Structures  </h4>
                                 <p>Provides best and fastest solution for structural design. Our solutions are mostly consider by our clients as economical and fastest solution provider. Have a right people with vast experience and knowledge help us to exceeds customers expectations</p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bx-world"></i>
                                 </div>
-                                <h4><a href="/">Land Development</a></h4>
+                                <h4> Land Development  </h4>
                                 <p>Provides services to convert your land for the purpose of residential, commercial, industrial or other required purpose. Having vast experience and qualified team to execute the projects.</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bx-building-house"></i>
                                 </div>
-                                <h4><a href="/">Commercial and IT Buildings</a></h4>
+                                <h4> Commercial and IT Buildings  </h4>
                                 <p>Offering best solution for construction of Commercial and IT Buildings. Widely known for completion of site within stipulated time with quality works.</p>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bxs-school"></i>
                                 </div>
-                                <h4><a href="/">Institutional Buildings</a></h4>
+                                <h4> Institutional Buildings  </h4>
                                 <p>Offered academic buildings and space construction services. The institutional buildings need to be designed in a specific way to improve interaction levels in the institution.</p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bxs-building"></i>
                                 </div>
-                                <h4><a href="/">Pre-Engineering Buildings - PEB</a></h4>
+                                <h4> Pre-Engineering Buildings - PEB  </h4>
                                 <p>Undertakes services for designing of Pre-Engineering Buildings for buildings, institutes, hospitals, malls etc. Our team takes utmost care to incorporate all latest technology while designing these buildings.</p>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ class Services extends Component {
                                     </svg>
                                     <i className="bx bxs-car"></i>
                                 </div>
-                                <h4><a href="/">Infra Projects (Concrete or Asphalt Roads)</a></h4>
+                                <h4> Infra Projects (Concrete or Asphalt Roads)  </h4>
                                 <p>Provide services for construction of infra works like concrete and asphalt roads as per requirement.</p>
                             </div>
                         </div>
