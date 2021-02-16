@@ -10,7 +10,7 @@ import Completed from './components/Completed';
 import { BrowserRouter, Route } from 'react-router-dom'
 import Projects from './components/Projects';
 import ContactMain from './components/ContactMain';
-import NotFound from './components/NotFound';
+// import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -26,7 +26,6 @@ function App() {
         <Route path='/Completed' component={Completed} />
         <Route path='/ContactUs:completed' component={ContactMain} />
         <Route path='/Projects:completed' component={Projects} />
-        <Route component={NotFound} />
       </div>
     </BrowserRouter>
   );
