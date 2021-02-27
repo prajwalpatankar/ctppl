@@ -32,10 +32,10 @@ class AboutUs extends Component {
                         <p>“Patankar's Creative Turnkey Projects Pvt. Ltd.”, erstwhile Creative Turnkey Projects Pvt. Ltd., provide our best of services in the fields of our kind. We are based in Pune, Maharashtra; providing our services all over India. With experience of over 3 decades by adopting high standard with latest construction technologies and competent management techniques, we are exceeding our client’s expectations during our each assignment. We believe our organisation's biggest assets are to maintain our high standards with an experienced, young, trained and skilful team members along with a dynamic approach for execution of each task. We pride on our vast and varied project portfolio that comprises residential, commercial, industrial, institutional buildings with MEP and Infra Projects.</p>
                     </div>
                     <div className="col-md-3 col-sm-12"><br />
-                        <img src="assets/img/projects/completed/tech_park.jpg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/associated.jpg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/kpit.jpg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/Vantage.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/tech_park.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/associated.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/kpit.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/Vantage.jpg" className="about-us-imgs" height="120px" alt="project_image" />
                     </div>
                     <div className="col-md-2 col-sm-12">
                         <p>&nbsp;</p>
@@ -47,10 +47,10 @@ class AboutUs extends Component {
                         <p>&nbsp;</p>
                     </div>
                     <div className="col-md-3 col-sm-12"><br />
-                        <img src="assets/img/projects/completed/Walmart-tirupati-764lacs.jpeg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/kellogs.jpg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/bits.jpg" className="about-us-imgs" height="120px" alt="project_image" />
-                        <img src="assets/img/projects/completed/birla.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/Walmart-tirupati-764lacs.jpeg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/kellogs.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/bits.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/birla.jpg" className="about-us-imgs" height="120px" alt="project_image" />
                     </div>
                     <div className="col-md-5 col-sm-12 vm-even">
                         <p>
