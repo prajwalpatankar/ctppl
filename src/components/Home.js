@@ -77,7 +77,7 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-home-heart-line"></i></div>
                                     <h4 className="title"> <Link to="OurClientele">Our Clientele</Link></h4>
-                                    <p className="description">Providing Services to leading brands</p>
+                                    <p className="description">Providing Services to leading brands with a plenitude of repeat orders</p>
                                 </div>
                             </div>
 
@@ -85,15 +85,15 @@ class Home extends Component {
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-building-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:1">Completed Projects</Link></h4>
-                                    <p className="description">Have a look at our <strong>Completed</strong> Projects</p>
+                                    <p className="description">Behold our timely delivered Projects attained for client satisfaction</p>
                                 </div>
                             </div>
-
+{/* THe industry knows us for our asjbf;ajbifjaifu  ----------- expanding our reach with*/}
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1500">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-building-3-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:0">On Going Projects</Link></h4>
-                                    <p className="description">Have a look at our <strong>On Going</strong> Projects</p>
+                                    <p className="description">Visit us at our on-going Project sites to gaze at our modern construction techniques</p> 
                                 </div>
                             </div>
 

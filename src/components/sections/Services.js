@@ -14,7 +14,7 @@ class Services extends Component {
 
                     <div className="section-title">
                         <h2 className="page-title">Services</h2>
-                        <h6 className="title-desciption">Supported by a strong backbone of employee resources in planning & design, engineering, project management and other key functions, Creative Turnkey Projects Pvt. Ltd. delivers diverse turnkey projects within the stipulated time.</h6>
+                        <h6 className="title-desciption">Supported by a strong backbone of employee resources in planning & design, engineering, project management and other key functions, Patankar's Creative Turnkey Projects Pvt. Ltd. delivers diverse turnkey projects within the stipulated time.</h6>
                     </div>
 
                     <div className="row">

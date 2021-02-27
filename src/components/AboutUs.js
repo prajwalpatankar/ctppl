@@ -73,17 +73,17 @@ class AboutUs extends Component {
                         <p>&nbsp;</p>
                     </div>
                     <div className="col-md-4 col-sm-12 vm-even">
-                        <img className="profile-photos" src="assets/img/team/img_avatar2.png" height="190px" width="190px" alt="prakash_patankar" /> <br /><br />
+                        <img className="profile-photos" src="assets/img/team/pp.jpg" height="190px" width="190px" alt="prakash_patankar" /> <br /><br />
                         <h2>Prakash Patankar</h2>
                         <h6>D I R E C T O R</h6><br /><br /><br />
-                        <p>With a reach experience of over 27+ years in infrastructure development / IT Companies / Institutional segments, Mr. Patankar focusing on innovation in design and energy efficiency. He plays pivotal roles in execution of the projects and also in creating futuristic, eco-safe structures that gracefully rise above the landscape. With a firm grip on the ground realities of the construction industry along-with his expertise indeed adds value to every projects. He is an excellent leader who continuously motivates our team to achieve new challenges.</p>
+                        <p>With a reach experience of over 27+ years in infrastructure development / IT Companies / Institutional segments, Mr. Prakash Patankar focusing on innovation in design and energy efficiency. He plays pivotal roles in execution of the projects and also in creating futuristic, eco-safe structures that gracefully rise above the landscape. With a firm grip on the ground realities of the construction industry along-with his expertise indeed adds value to every projects. <br /><br />He is an excellent leader who continuously motivates our team to achieve new challenges. He plays an influential and prominent role in augmenting the product delivery levels of the company, attainment of superior standards of quality and client relationship management. </p>
                     </div>
                     <div className="col-md-4 col-sm-12 vm-even">
-                        <img className="profile-photos" src="assets/img/team/img_avatar2.png" height="190px" width="190px" alt="aniket_patankar" /> <br /><br />
+                        <img className="profile-photos" src="assets/img/team/DSC_4152a.jpg" height="190px" width="190px" alt="aniket_patankar" /> <br /><br />
                         <h2>Aniket Patankar</h2>
                         <h6>D I R E C T O R</h6><br /><br /><br />
                         <p>
-                            Curabitur vitae nunc sed velit dignissim sodales ut eu. Pretium lectus quam id leo in vitae turpis massa sed. Blandit libero volutpat sed cras. Gravida arcu ac tortor dignissim convallis aenean et tortor. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Massa tempor nec feugiat nisl pretium. Vitae tortor condimentum lacinia quis vel. Mauris sit amet massa vitae tortor condimentum. Gravida dictum fusce ut placerat. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Non odio euismod lacinia at quis risus sed. Sit amet luctus venenatis lectus magna fringilla. Enim ut sem viverra aliquet eget sit amet tellus cras. Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus. Consectetur a erat nam at lectus.
+                            Mr. Aniket Patankar is responsible for developing the strategic vision of the company, establishing the organisation's goals and objectives and directing the company towards its fulfilment. He focuses on the overall functioning of the companyn in particular, emphasizing on project execution, project delivery,  quality control, processes and customer satisfaction. <br /><br />He governs the performance of various departmemts in the organisation such as Project management, technology, timely delivery and value engineering. 
                         </p>
                     </div>
                     <div className="col-md-2">
@@ -94,7 +94,7 @@ class AboutUs extends Component {
                 <hr />
                 <div className="section-title">
                     <h2 className="page-title">Certifications and Awards</h2>
-                    <p>Blabla blablabla</p>
+                    <p> - </p>
                 </div>
                 <br /><br />
                 <div className="row">
