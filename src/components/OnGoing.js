@@ -30,28 +30,28 @@ class OnGoing extends Component {
                     name: "Parkland, Pune",
                     type: 2, 
                     desc : "For Yashvastu Developers. | Area - 5,00,000sq.ft | Cost - 4250 Lacs | Consultant -Fidesto Projects Pvt. Ltd",
-                    img: "assets/img/projects/ongoing/Parkland-New-190719.jpg"
+                    img: "assets/img/projects/Parkland-New-190719.jpg"
                 },
                 {
                     id: 2,
                     name: "Godrej Elements, Pune",
                     type: 2, 
                     desc : "Residential projects | cost- 1021 Lacs | consultant- Kapadia Associates, | Location- Hinjewadi Pune",
-                    img: "assets/img/projects/ongoing/Godrej-elements.jpg"
+                    img: "assets/img/projects/Godrej-elements.jpg"
                 },
                 {
                     id: 3,
                     name: "Madhukosh, Pune",
                     type: 2, 
                     desc : "Residential Project | Area: 1,50,000 sq. ft | Cost: 1471 Lacs | Architect: Nitin Joshi | Client: Fidesto Projects Private Limited | PMC: FABS | Location: Balewadi, Pune",
-                    img: "assets/img/projects/ongoing/Madhukosh-Balewadi-ongoing.jpg"
+                    img: "assets/img/projects/Madhukosh-Balewadi-ongoing.jpg"
                 },
                 {
                     id: 4,
                     name: "Godrej Greens, Pune",
                     type: 2, 
                     desc : "Residential Project | Finishing Work | Cost: 1000 Lacs | Client: Godrej Properties Limited | Location: Kondhwa, Pune",
-                    img: "assets/img/projects/ongoing/Madhukosh-Balewadi-ongoing.jpg" //add photo
+                    img: "assets/img/projects/Madhukosh-Balewadi-ongoing.jpg" //add photo
                 },
             ],
             itbuildings: [

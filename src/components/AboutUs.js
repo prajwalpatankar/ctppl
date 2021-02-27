@@ -32,10 +32,10 @@ class AboutUs extends Component {
                         <p>“Patankar's Creative Turnkey Projects Pvt. Ltd.”, erstwhile Creative Turnkey Projects Pvt. Ltd., provide our best of services in the fields of our kind. We are based in Pune, Maharashtra; providing our services all over India. With experience of over 3 decades by adopting high standard with latest construction technologies and competent management techniques, we are exceeding our client’s expectations during our each assignment. We believe our organisation's biggest assets are to maintain our high standards with an experienced, young, trained and skilful team members along with a dynamic approach for execution of each task. We pride on our vast and varied project portfolio that comprises residential, commercial, industrial, institutional buildings with MEP and Infra Projects.</p>
                     </div>
                     <div className="col-md-3 col-sm-12"><br />
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" /><br /><br />
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/tech_park.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/associated.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/kpit.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/Vantage.jpg" className="about-us-imgs" height="120px" alt="project_image" />
                     </div>
                     <div className="col-md-2 col-sm-12">
                         <p>&nbsp;</p>
@@ -47,10 +47,10 @@ class AboutUs extends Component {
                         <p>&nbsp;</p>
                     </div>
                     <div className="col-md-3 col-sm-12"><br />
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" /><br /><br />
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img src="assets/img/projects/completed/Vantage.jpg" height="120px" widht="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/Walmart-tirupati-764lacs.jpeg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/kellogs.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/bits.jpg" className="about-us-imgs" height="120px" alt="project_image" />
+                        <img src="assets/img/projects/completed/birla.jpg" className="about-us-imgs" height="120px" alt="project_image" />
                     </div>
                     <div className="col-md-5 col-sm-12 vm-even">
                         <p>
@@ -76,7 +76,7 @@ class AboutUs extends Component {
                         <img className="profile-photos" src="assets/img/team/img_avatar2.png" height="190px" width="190px" alt="prakash_patankar" /> <br /><br />
                         <h2>Prakash Patankar</h2>
                         <h6>D I R E C T O R</h6><br /><br /><br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>With a reach experience of over 27+ years in infrastructure development / IT Companies / Institutional segments, Mr. Patankar focusing on innovation in design and energy efficiency. He plays pivotal roles in execution of the projects and also in creating futuristic, eco-safe structures that gracefully rise above the landscape. With a firm grip on the ground realities of the construction industry along-with his expertise indeed adds value to every projects. He is an excellent leader who continuously motivates our team to achieve new challenges.</p>
                     </div>
                     <div className="col-md-4 col-sm-12 vm-even">
                         <img className="profile-photos" src="assets/img/team/img_avatar2.png" height="190px" width="190px" alt="aniket_patankar" /> <br /><br />
@@ -102,23 +102,23 @@ class AboutUs extends Component {
 
                     <div className="col-lg-12 col-xl-6">
                         <h6>Received appreciation from M/s. Phoenix Mecano India Pvt. Ltd. for <br /><strong>Valuable contribution towards construction.</strong> </h6>
-                        <img src="assets/img/phoenix.png" alt="phoenix" />
+                        <img src="assets/img/phoenix.png" alt="phoenix" height="400px"/>
 
                         <div className="row">
                             <div className="col-sm-6 "><br />
                                 <h6>Appreciated by M/s. Exide Industries Limited as <br /><strong>Best Safety Contractor of the Year </strong></h6><br />
-                                <img src="assets/img/safety.png" height="400px" alt="safety_award" />
+                                <img src="assets/img/safety.png" height="350px" alt="safety_award" />
                             </div>
                             <div className="col-sm-6"><br />
                                 <h6>Received greatest appreciation  by M/s. Corning Technologies India Pvt. Ltd. for valuable support and participation for construction of Varale ZP School</h6>
-                                <img src="assets/img/Corning.png" height="400px" alt="Corning" />
+                                <img src="assets/img/Corning.png" height="350px" alt="Corning" />
                             </div>
                         </div>
                     </div>
 
                     <div className="col-lg-12 col-xl-6" >
-                        <h6>We are ISO 9001:2015 certified</h6>
-                        <img src="assets/img/iso.png" alt="iso_certificate"/>
+                        <h6><br /><br />We are ISO 9001:2015 certified</h6>
+                        <img src="assets/img/iso.png" alt="iso_certificate" height= "800px"/>
                     </div>
 
 
