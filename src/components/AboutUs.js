@@ -100,7 +100,7 @@ class AboutUs extends Component {
                 <div className="row">
 
 
-                    <div className="col-sm-6 ">
+                    <div className="col-lg-12 col-xl-6">
                         <h6>Received appreciation from M/s. Phoenix Mecano India Pvt. Ltd. for <br /><strong>Valuable contribution towards construction.</strong> </h6>
                         <img src="assets/img/phoenix.png" alt="phoenix" />
 
@@ -116,9 +116,9 @@ class AboutUs extends Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6">
+                    <div className="col-lg-12 col-xl-6" >
                         <h6>We are ISO 9001:2015 certified</h6>
-                        <img src="assets/img/iso.png" alt="iso_certificate" />
+                        <img src="assets/img/iso.png" alt="iso_certificate"/>
                     </div>
 
 

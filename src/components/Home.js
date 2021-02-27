@@ -51,13 +51,13 @@ class Home extends Component {
             <div>
                 {/* <!-- ======= Hero Section ======= --> */}
                 <section id="hero" className="d-flex align-items-center">
-                    <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
-                        {/* <img src="assets/img/ctppl_logo.png" height="50px" alt="ctppl" />
+                    <div className="container position-relative">
+                        {/* <img data-aos="fade-up" src="assets/img/ctppl.png" height="100px" alt="ctppl" />
                         <img src="assets/img/final_logo_PNG.png" height="50px" alt="pctppl"/> */}
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9 text-center">
-                                <span><h1 className="patankars"> PATANKAR's</h1><h1 className="main-title-ctppl"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
-                                <h2 data-aos="zoom-in-up" data-aos-delay="1000">We <strong >Dream!</strong> We <strong>Plan!</strong> We <strong>Achieve!</strong></h2>
+                                <span><h1 className="patankars" data-aos="fade-up" data-aos-delay="1000"> PATANKAR's</h1><h1 className="main-title-ctppl" data-aos="fade-up" data-aos-delay="1000"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
+                                <h2 data-aos="zoom-in-up" data-aos-delay="1100">We <strong >Dream!</strong> We <strong>Plan!</strong> We <strong>Achieve!</strong></h2>
                             </div>
                         </div>
                         {/* <div class="text-center">
@@ -65,7 +65,7 @@ class Home extends Component {
                         </div> */}
 
                         <div className="row icon-boxes">
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1200">
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-funds-box-line"></i></div>
                                     <h4 className="title"> <Link to="OurServices">Our Services</Link></h4>
@@ -73,7 +73,7 @@ class Home extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1300">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-home-heart-line"></i></div>
                                     <h4 className="title"> <Link to="OurClientele">Our Clientele</Link></h4>
@@ -81,7 +81,7 @@ class Home extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1400">
                                 <div className="icon-box">
                                     <div className="icon"><i className="ri-building-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:1">Completed Projects</Link></h4>
@@ -89,7 +89,7 @@ class Home extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+                            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1500">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-building-3-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:0">On Going Projects</Link></h4>
