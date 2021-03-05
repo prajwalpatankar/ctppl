@@ -15,14 +15,14 @@ class Home extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
-      }
+    }
 
     BackToTop() {
         window.scrollTo({
             top: 0,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
     // isBottom(el) {
     //     return el.getBoundingClientRect().bottom <= window.innerHeight;
@@ -88,12 +88,12 @@ class Home extends Component {
                                     <p className="description">Behold our timely delivered Projects attained for client satisfaction</p>
                                 </div>
                             </div>
-{/* THe industry knows us for our asjbf;ajbifjaifu  ----------- expanding our reach with*/}
+                            {/* THe industry knows us for our asjbf;ajbifjaifu  ----------- expanding our reach with*/}
                             <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="1500">
                                 <div className="icon-box">
                                     <div className="icon"><i className=" ri-building-3-line"></i></div>
                                     <h4 className="title"> <Link to="Projects:0">On Going Projects</Link></h4>
-                                    <p className="description">Visit us at our on-going Project sites to gaze at our modern construction techniques</p> 
+                                    <p className="description">Visit us at our on-going Project sites to gaze at our modern construction techniques</p>
                                 </div>
                             </div>
 
@@ -119,9 +119,18 @@ class Home extends Component {
                     {/* <!-- ======= Cta Section ======= --> */}
                     <section id="cta" className="cta">
                         <div className="container" data-aos="zoom-in">
-                            <div className="text-center">
-                                <h3>Symbol of Passion</h3>
-                                <p>Catalyst of Growth</p>
+                            <div className="row">
+                                <div className="col-lg-3 col-md-6"> <br />
+                                    <img src="assets/img/final logo JPG.jpg" height="70px" alt="LOGO" />
+                                </div>
+                                <div className=" col-lg-6 text-center">
+                                    <h3>Symbol of Passion</h3>
+                                    <p>Catalyst of Growth</p>
+                                </div>
+                                <div className="col-lg-3 col-md-6">
+                                    <p>A sister concern co.</p>
+                                    <img src="assets/img/ctppl_logo.png" height="70px" alt="LOGO" />
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -131,7 +140,7 @@ class Home extends Component {
                     <Services />
                     {/* <!-- End Sevices Section --> */}
 
-                    
+
 
                     {/* <!-- ======= Glimpse Section ======= --> */}
                     {/* <section id="portfolio" className="portfolio">
