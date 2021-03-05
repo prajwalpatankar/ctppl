@@ -119,18 +119,9 @@ class Home extends Component {
                     {/* <!-- ======= Cta Section ======= --> */}
                     <section id="cta" className="cta">
                         <div className="container" data-aos="zoom-in">
-                            <div className="row">
-                                <div className="col-lg-3 col-md-6"> <br />
-                                    <img src="assets/img/final logo JPG.jpg" height="70px" alt="LOGO" />
-                                </div>
-                                <div className=" col-lg-6 text-center">
-                                    <h3>Symbol of Passion</h3>
-                                    <p>Catalyst of Growth</p>
-                                </div>
-                                <div className="col-lg-3 col-md-6">
-                                    <p>A sister concern co.</p>
-                                    <img src="assets/img/ctppl_logo.png" height="70px" alt="LOGO" />
-                                </div>
+                            <div className="text-center">
+                                <h3>Symbol of Passion</h3>
+                                <p>Catalyst of Growth</p>
                             </div>
                         </div>
                     </section>
