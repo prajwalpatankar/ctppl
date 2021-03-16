@@ -11,6 +11,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Projects from './components/Projects';
 import ContactMain from './components/ContactMain';
 import NotFound from './components/NotFound';
+import Master from './components/backend/Master';
+import Requisition from './components/backend/Requisition';
+import RequisitionSite from './components/backend/Requisition_site';
 
 function App() {
   return (
@@ -27,6 +30,11 @@ function App() {
           <Route path='/Completed' component={Completed} />
           <Route path='/ContactUs:completed' component={ContactMain} />
           <Route path='/Projects:completed' component={Projects} />
+
+          <Route path='/master' component={Master} />
+          <Route path='/req' component={Requisition} />
+          <Route path='/reqsite' component={RequisitionSite} />
+
           <Route component={NotFound} />
         </Switch>
       </div>
