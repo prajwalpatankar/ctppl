@@ -20,6 +20,7 @@ class Navbar1 extends Component {
                 isMobile: window.innerWidth < 1000
             });
         }, false);
+        console.log(this.state.isMobile);
     }
 
     render() {

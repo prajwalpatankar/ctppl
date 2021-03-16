@@ -18,7 +18,7 @@ class Contact extends Component {
                         <p>10.00 am to 7.00 pm<br />Monday to Saturday</p>
                         <br />
                         <h3>Contact Details </h3>
-                        <p><strong>Phone:</strong> +91-9767726744<br /><strong>Email:</strong> prakash.patankar@ctppl.com <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aniket.patankar@ctppl.com</p>
+                        <p><strong>Phone:</strong> +91-9767726744<br /><strong>Email:</strong> prakash.patankar@ctppl.com <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aniket.patankar@ctppl.com</p>
 
 
                     </div>
@@ -38,7 +38,7 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" method="POST" data-netlify="true">
+                    <form className="contact-form row" data-aos="fade-up">
                         <div className="form-field col-lg-6">
                             <input id="name" className="input-text js-input" type="text" required />
                             <label className="label" for="name">Name</label>
