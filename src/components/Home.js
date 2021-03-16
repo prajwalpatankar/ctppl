@@ -56,7 +56,7 @@ class Home extends Component {
                         <img src="assets/img/final_logo_PNG.png" height="50px" alt="pctppl"/> */}
                         <div className="row justify-content-center">
                             <div className="col-xl-7 col-lg-9 text-center">
-                                <span><h1 className="patankars" data-aos="fade-up" data-aos-delay="10"> PATANKAR's</h1><h1 className="main-title-ctppl" data-aos="fade-up" data-aos-delay="20"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
+                                <span><h1 className="patankars" data-aos="fade-up" > PATANKAR's</h1><h1 className="main-title-ctppl" data-aos="fade-up"> CREATIVE Turnkey Projects Pvt. Ltd.</h1></span>
                                 <h2 data-aos="zoom-in-up" data-aos-delay="100">We <strong >Dream!</strong> We <strong>Plan!</strong> We <strong>Achieve!</strong></h2>
                             </div>
                         </div>
