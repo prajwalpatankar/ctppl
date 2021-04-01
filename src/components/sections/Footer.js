@@ -15,8 +15,8 @@ class Footer extends Component {
                                 <img src="assets/img/final_logo_PNG.png" height="70px" alt="LOGO" />
                             </div>
                             <div className="col-lg-3 col-md-6 footer-contact">
-                                <h3>PCTPPL</h3>
-                                <p><a href="https://www.google.com/maps/place/Creative+Turnkey+Projects+Pvt,+Ltd/@18.4850216,73.7959744,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2bfd3849df21d:0x299ed1dd59ae92fa!8m2!3d18.4850165!4d73.7981631" target="_blank" rel="noreferrer">
+                                <h2>PCTPPL</h2>
+                                <p><a href="https://g.page/PCTPPL?share" target="_blank" rel="noreferrer">
                                     spandan office no.8,<br />above state bank of india,<br /> opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />411 058, Warje, Pune, Maharashtra 411058
                                     </a><br /><br />
                                     <strong>Phone:</strong> +91 9767726744<br />
@@ -36,7 +36,7 @@ class Footer extends Component {
                                 </ul>
                             </div> */}
                             <div className="col-lg-3 col-md-6 footer-links">
-                                <iframe className="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9699220118614!2d73.79597441530792!3d18.485021575083994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfd3849df21d%3A0x299ed1dd59ae92fa!2sCreative%20Turnkey%20Projects%20Pvt%2C%20Ltd!5e0!3m2!1sen!2sin!4v1613189018964!5m2!1sen!2sin" title="PCTPPL" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.9932107651395!2d73.79774302922746!3d18.484889271127987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6b2a100dd7%3A0x4b6ab53a6d78e7da!2sPatankar&#39;s%20Creative%20Turnkey%20Projects%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1617253516145!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-links"><br /><br /><br />
                                 <p>A sister concern co.</p>

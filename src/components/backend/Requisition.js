@@ -8,22 +8,25 @@ class Requisition extends Component {
 
         this.state = {
             req_id: '',
+            message: "",
             isapproved_site: 'N',
             isapproved_master: 'N',
+            reqs: [],
+            filtered_reqs: [],
         }
-        this.reqs_all = [];
-        this.reqs_filtered = [];
+
     }
 
     componentDidMount() {
+        console.log("im in")
         axios.get('http://localhost:8000/requisition/')
             .then(res => {
                 const reqs = res.data;
-                this.reqs_all = res.data;
-                this.reqs_filtered = reqs.filter(function (reqs) {
-                    return reqs.isapproved_site === "R"
+                this.setState({ reqs });
+                let filtered_reqs = reqs.filter(function (reqs) {
+                    return ( reqs.isapproved_site === "R" || reqs.isapproved_master === "R" )
                 })
-                console.log(this.reqs_all)
+                this.setState({ filtered_reqs });
             })
             
         }
@@ -38,10 +41,12 @@ class Requisition extends Component {
         axios.post('http://localhost:8000/requisition/', this.state)
             .then(response => {
                 console.log(response)
+                this.componentDidMount();
             })
             .catch(error => [
                 console.log(error)
             ])
+            setTimeout(this.componentDidMount(),300);
     }
 
     render() {
@@ -55,6 +60,8 @@ class Requisition extends Component {
 
                 <br />
 
+                <br />
+                <h2>Rejected</h2>
                 <Table>
                     <thead>
                         <tr>
@@ -64,18 +71,35 @@ class Requisition extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {this.reqs_all.map((requisition, index) => (
+                        {this.state.filtered_reqs.map((requisition, index) => (
                             <tr>
-                                <td>f</td>
+                                <td>{index + 1}</td>
                                 <td>{requisition.req_id}</td>
-                                <td>{requisition.isapproved_master}</td>
+                                <td>{requisition.isapproved_site}</td>
                             </tr>
                         ))}
+                    </tbody>
+                </Table>
+
+                
+                <br /><br /><br />
+
+                <Table>
+                    <thead>
                         <tr>
-                            <td>f</td>
-                            <td>f</td>
-                            <td>f</td>
+                            <th>#</th>
+                            <th>ID</th>
+                            <th>Approved </th>
                         </tr>
+                    </thead>
+                    <tbody>
+                        {this.state.reqs.map((requisition, index) => (
+                            <tr>
+                                <td>{index + 1}</td>
+                                <td>{requisition.req_id}</td>
+                                <td>{requisition.isapproved_site}</td>
+                            </tr>
+                        ))}
                     </tbody>
                 </Table>
             </div>

@@ -31,10 +31,12 @@ class Master extends Component {
         axios.put(`http://localhost:8000/requisition/${requisition.id}/`, requisition)
             .then(response => {
                 console.log(response)
+                this.componentDidMount()
             })
             .catch(error => [
                 console.log(error)
             ])
+            setTimeout(this.componentDidMount(),300);
     }
 
     render() {

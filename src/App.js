@@ -14,6 +14,7 @@ import NotFound from './components/NotFound';
 import Master from './components/backend/Master';
 import Requisition from './components/backend/Requisition';
 import RequisitionSite from './components/backend/Requisition_site';
+import 'antd/dist/antd.css'; 
 
 function App() {
   return (
