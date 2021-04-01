@@ -36,7 +36,7 @@ class Footer extends Component {
                                 </ul>
                             </div> */}
                             <div className="col-lg-3 col-md-6 footer-links">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.9932107651395!2d73.79774302922746!3d18.484889271127987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6b2a100dd7%3A0x4b6ab53a6d78e7da!2sPatankar&#39;s%20Creative%20Turnkey%20Projects%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1617253516145!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.9932107651395!2d73.79774302922746!3d18.484889271127987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6b2a100dd7%3A0x4b6ab53a6d78e7da!2sPatankar&#39;s%20Creative%20Turnkey%20Projects%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1617253516145!5m2!1sen!2sin" title="PCTPPL" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-links"><br /><br /><br />
                                 <p>A sister concern co.</p>
