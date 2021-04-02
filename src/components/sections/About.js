@@ -21,8 +21,8 @@ class About extends Component {
                                 
                             </p>
                             <ul>
+                                <li><i className="ri-check-double-line"></i>Qualified and experienced staff</li>
                                 <li><i className="ri-check-double-line"></i>Wide range of advanced machineries</li>
-                                <li><i className="ri-check-double-line"></i></li>
                             </ul>
                             
                         </div>

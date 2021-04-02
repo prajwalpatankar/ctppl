@@ -23,11 +23,18 @@ class OnGoing extends Component {
                     desc : "Industrial Sheds| Cost - 800 Lacs ",
                     img: "" 
                 },
+                {
+                    id: 7,
+                    name: "Garware Bestretch, Wai",
+                    type: 2, 
+                    desc : "Industrial Sheds| Cost - 900 Lacs ",
+                    img: "" 
+                },
             ],
             residential: [
                 {
                     id: 1,
-                    name: "Parkland, Pune",
+                    name: "Yashvastu Parkland, Pune",
                     type: 2, 
                     desc : "For Yashvastu Developers. | Area - 5,00,000sq.ft | Cost - 4250 Lacs | Consultant -Fidesto Projects Pvt. Ltd",
                     img: "assets/img/projects/Parkland-New-190719.jpg"
@@ -51,7 +58,14 @@ class OnGoing extends Component {
                     name: "Godrej Greens, Pune",
                     type: 2, 
                     desc : "Residential Project | Finishing Work | Cost: 1000 Lacs | Client: Godrej Properties Limited | Location: Kondhwa, Pune",
-                    img: "assets/img/projects/Madhukosh-Balewadi-ongoing.jpg" //add photo
+                    img: "assets/img/projects/godrej-greens.jpg" 
+                },
+                {
+                    id: 5,
+                    name: "Godrej Park Greens, Pune",
+                    type: 2, 
+                    desc : "Residential Project | Finishing Work | Cost: 850 Lacs | Client: Godrej Properties Limited | Location: Mamurdi, Pune",
+                    img: "assets/img/projects/godrej-park-greens.jpg" 
                 },
             ],
             itbuildings: [

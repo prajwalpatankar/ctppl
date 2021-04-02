@@ -2,10 +2,50 @@ import React, { Component } from 'react';
 import Footer from './sections/Footer';
 
 class OurPolicies extends Component {
-
+    constructor(props) {
+        super(props);
+        this.state = { 
+            class1 : "vm-odd",
+            class1_tit : "vm-title vm-odd",
+            class2 : "vm-even",
+            class2_tit : "vm-title vm-even",
+         };
+         if( window.innerWidth < 992 ) {
+            this.state = {
+                class1: "",
+                class1_tit : "vm-title",
+                class2 : "",
+                class2_tit : "vm-title",
+            };
+        } else {
+            this.state = {
+                class1 : "vm-odd",
+                class1_tit : "vm-title vm-odd",
+                class2 : "vm-even",
+                class2_tit : "vm-title vm-even",
+            };
+        }
+    }
     componentDidMount() {
         window.scrollTo(0, 0)
-      }
+        window.addEventListener('resize', () => {   //check screensize
+            if( window.innerWidth < 992 ) {
+                this.setState({
+                    class1: "",
+                    class1_tit : "vm-title",
+                    class2 : "",
+                    class2_tit : "vm-title",
+                });
+            } else {
+                this.setState({
+                    class1 : "vm-odd",
+                    class1_tit : "vm-title vm-odd",
+                    class2 : "vm-even",
+                    class2_tit : "vm-title vm-even",
+                });
+            }
+        }, false);
+    }
       
     render() {
         return (
@@ -13,113 +53,90 @@ class OurPolicies extends Component {
                 <br /><br /><br /><br /><br /><br />
                 <div className="section-title" data-aos="fade-up">
                     <h2 className="page-title ">Our Policies</h2>
-                    <h6 className="title-description">-</h6>
+                    <h6 className="title-description"> </h6>
                 </div>
-
-
-
-
                 <div className="row">
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
-                    <div className="col-md-6 col-sm-12" data-aos="fade-up"><br />
-                        <h3 className="vm-title vm-odd">Our Mission</h3>
-                        <p className="vm-odd"><br />
-                            TO MAXIMIZE THE ROI OF OUR VALUED CLIENTS BY DELIVERING OUTSTANDING PROJECTS THAT <br />SYMBOLIZE A FINE BLEND OF AESTHETICS, FUNCTIONALITY AND ENVIRONMENTAL CARE.
-                            <br /><br />CREATIVE TURNKEY PROJECTS PVT. LTD. IS SPECIALIZING IN DELIVERING ENGINEERING & CONSTRUCTION SERVICES. CREATING NEW BENCHMARKS IN QUALITY AND PROFESSIONALISM, WE HAVE GROWN TO BE ONE OF PUNE’S LEADING TURNKEY PROVIDERS. AT CREATIVE TURNKEY PROJECTS, WE JUST DON’T BUILD CEMENT AND STEEL STRUCTURES; WE PASSIONATELY CREATE LANDMARKS THAT SYMBOLIZE QUALITY, RELIABILITY AND SAFETY.
-                         </p>
+                    <div className="col-lg-6 col-sm-12" data-aos="fade-up"><br />
+                        <h3 className={this.state.class1_tit}>Our Mission</h3>
+                        <p className={this.state.class1}><br />
+                        To maximize the ROI of our valued clients by delivering outstanding projects that <br />Symbolize a fine blend of aesthetics, functionality and environmental care.
+                            <br /><br />Patankar's Creative Turnkey Projects Pvt. Ltd. Is specializing in delivering engineering & construction services. Creating new benchmarks in quality and professionalism, we have grown to be one of pune’s leading turnkey providers. At creative turnkey projects, we just don’t build cement and steel structures; We passionately create landmarks that symbolize quality, reliability and safety.
+                        </p>
 
                     </div>
-                    <div className="col-md-4">
-                        <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" src="assets/img/m_v/mission.jpg" height="300px" width="498px" alt="mission"></img>
+                    <div className="col-lg-4">
+                        <img data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" src="assets/img/m_v/mission.jpg" className="img-fluid" height="300px" width="498px" alt="mission"></img>
                     </div>
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
                 </div>
-
-
-
-
-
                 <br /><br /><br /><br /><br /><br />
                 <div className="row">
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
-                    <div className="col-md-4">
-                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/vision.jpg" height="300px" width="498px" alt="mission"></img>
+                    <div className="col-lg-4">
+                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/vision.jpg" className="img-fluid" height="300px" width="498px" alt="mission"></img>
                     </div>
-                    <div className="col-md-6 col-sm-12 " data-aos="fade-up"><br /><br />
-                        <h3 className="vm-title vm-even">Our Vision</h3>
-                        <p className="vm-even"><br /><br />
-                            TO EMERGE AS A MARKET LEADER BY NURTURING A CULTURE OF ETHICS AND EXCELLENCE. <br /><br /><br /><br /><br />
+                    <div className="col-lg-6 col-sm-12 " data-aos="fade-up"><br /><br />
+                        <h3 className={this.state.class2_tit}>Our Vision</h3>
+                        <p className={this.state.class2}><br /><br />
+                        To emerge as a market leader by nurturing a culture of ethics and excellence. <br /><br /><br /><br /><br />
                         </p>
                     </div>
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
                 <br /><br /><br /><br />
                 <div className="row">
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
-                    <div className="col-md-6 col-sm-12 " data-aos="fade-up">
-                        <h3 className="vm-title vm-odd">Quality Policy</h3>
-                        <p className="vm-odd"><br /><br />
-                            WE CREATIVE TURNKEY PROJECTS PVT.LTD. ARE IN THE FIELD OF CONSTRUCTION OF CIVIL & MEP WORK FOR CONSTRUCTION OF RESIDENTIAL, INDUSTRIAL AND COMMERCIAL SPACES.<br /><br />
-                            WE ARE COMITTED TO DELIVER THE BEST PRODUCT TO THE SATISFACTION OF OUR VALUED CUSTOMERS.THE CONCERN OF QUALITY IS NURTURED AT EVERY LEVEL OUR WORK FORCE IS QULIFIED AND ADAPTED TO IMPROVISING IN QUALITY NEEDS.<br /><br />
-                            AS STANDING ON STRONG FOUNDATION OF QUALIFICATION AND HAVING LONG EXPERIENCE, WE UNDERSTAND THAT EVERY DAY IS A NEW DAY FOR LEARNING WITHIN THE CONSTRUCTION INDUSTRY.WE WILL ABIDE BY ALL APPLICABLE STATUTORY AND REGULATORY REQUIREMENTS.<br /><br />
-                            WITH THIS IN MIND AS AN EXPERIENCE WE PROVIDE TRAINING TO ALL STAFF MEMBERS, STARTING WITH THE DIRECTORS TO THE WORK FORCE, WHO TOO ARE ACTIVELY INVOLVED, ALONG WITH ALL EMPLOYEES, IN CONTRIBUTION TO QUALITY AND CONTINUAL IMPROVEMENT OF QUALITY MANAGEMENT SYSTEMS.
+                    <div className="col-lg-6 col-sm-12 " data-aos="fade-up">
+                        <h3 className={this.state.class1_tit}>Quality Policy</h3>
+                        <p className={this.state.class1}><br /><br />
+                            We Patankar's Creative Turnkey Projects Pvt.Ltd. Are in the field of construction of civil & MEP work for construction of residential, industrial and commercial spaces.<br /><br />
+                            We are committed to deliver the best product to the satisfaction of our valued customers. The concern of quality is nurtured at every level our work force is qualified and adapted to improvising in quality needs.<br /><br />
+                            As standing on strong foundation of qualification and having long experience, we understand that every day is a new day for learning within the construction industry. We will abide by all applicable statutory and regulatory requirements.<br /><br />
+                            With this in mind as an experience we provide training to all staff members, starting with the directors to the work force, who too are actively involved, along with all employees, in contribution to quality and continual improvement of quality management systems.
                     </p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                         <br /><br />
-                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/quality.jpg" height="300px" width="498px" alt="mission"></img>
+                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/quality.jpg" className="img-fluid" height="300px" width="498px" alt="mission"></img>
                     </div>
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
                 </div>
             
                 <br /><br /><br /><br /><br /><br />
                 <div className="row">
-                <div className="col-md-1 col-sm-12 ">
+                <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
-                    <div className="col-md-4">
-                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/safety.jpg" height="300px" width="498px" alt="mission"></img>
+                    <div className="col-lg-4">
+                        <img data-aos="fade-up" data-aos-delay="300" src="assets/img/m_v/safety.jpg" className="img-fluid" height="300px" width="498px" alt="mission"></img>
                     </div>
-                    <div className="col-md-6 col-sm-12 " data-aos="fade-up"><br />
-                        <h3 className="vm-title vm-even">Environment, Health and <strong>Safety</strong></h3>
-                        <p className="vm-even"><br /><br />
-                            WE CREATIVE TURNKEY PROJECTS PVT. LTD. INTENDS TO MEET THESE COMMITMENTS BY ENSURING THAT SAFE WORKING PRACTICE AND PROCEDURES ARE ADOPTED, WHICH COMPLY WITH THE REQUIREMENT OF THE HEALTH AND SAFETY LEGISLATION AND STANDARD PRACTICES IN INDIA.
-
-                            OUR TEAM IS BOUND TO TAKE CARE OF THEIR OWN AND OTHERS HEALTH AND MAINTAIN A SAFE ENVIRONMENT AT WORK.
-
-                            ALL EMPLOYEES OF CREATIVE TURNKEY PROJECTS PVT. LTD .  ARE REQUIRED TO:
-
-                            ENCOURAGE SAFE BEHAVING AMONG THEIR COLLEAGUES.
-                            PARTICIPATE ACTIVELY IN SAFETY PROGRAM AND PUT THE REQUIRED KNOWLEDGE IN TO PRACTICE
-                            FOLLOW DEFINED PROCEDURES WITH SELF-DISCIPLINE AND WORK SAFETY AT ALL TIMES.
-                            TAKE APPROPRIATE ACTIONS TO PROTECT AIR, WATER AND ANIMAL & PLANET LIFE.
+                    <div className="col-lg-6 col-sm-12 " data-aos="fade-up"><br />
+                        <h3 className={this.state.class2_tit}>Environment, Health and <strong>Safety</strong></h3>
+                        <p className={this.state.class2}><br /><br />
+                            We creative turnkey projects pvt. Ltd. Intends to meet these commitments by ensuring that safe working practice and procedures are adopted, which comply with the requirement of the health and safety legislation and standard practices in india.
+                            Our team is bound to take care of their own and others health and maintain a safe environment at work.
+                            All employees of creative turnkey projects pvt. Ltd .  Are required to:
+                            Encourage safe behaving among their colleagues.
+                            Participate actively in safety program and put the required knowledge in to practice.
+                            Follow defined procedures with self-discipline and work safety at all times.
+                            Take appropriate actions to protect air, water and animal & planet life.
                         </p>
                     </div>
-                    <div className="col-md-1 col-sm-12 ">
+                    <div className="col-lg-1 col-sm-12 ">
                         <p>&nbsp;</p>
                     </div>
                 </div>

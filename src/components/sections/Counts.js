@@ -15,7 +15,8 @@ class Counts extends Component {
                                             end={46}
                                             duration={4}
                                             delay={0}
-                                        />
+                                            suffix={" +"}
+                                        />   
                                         </span>
                                         <p>Happy Clients</p>
                                     </div>
@@ -27,18 +28,20 @@ class Counts extends Component {
                                             end={30}
                                             duration={4}
                                             delay={0.1}
+                                            suffix={" +"}
                                         />
                                         </span>
                                         <p>Years of experience</p>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-2 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                                <div className="col-lg-2 col-md-5 col-6 d-md-flex align-items-md-stretch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <div className="count-box">
                                     <span classNameName="counter-up"><CountUp
                                             end={11} 
                                             duration={4}
                                             delay={0.2}
+                                            suffix={" +"}
                                         />
                                         </span>
                                         <p> Million Safe man-hours</p>
@@ -51,6 +54,7 @@ class Counts extends Component {
                                             end={46}
                                             duration={4}
                                             delay={0.3}
+                                            suffix={" +"}
                                         />
                                         </span>
                                         <p>% Rate of Repeat Orders</p>
@@ -63,6 +67,7 @@ class Counts extends Component {
                                             end={50}
                                             duration={4}
                                             delay={0.4}
+                                            suffix={" +"}
                                         />
                                         </span>
                                         <p>Projects</p>
