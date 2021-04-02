@@ -38,7 +38,7 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" action="POST" data-netlify="true">
+                    <form className="contact-form row" data-aos="fade-up" method="POST" data-netlify="true">
                         <div className="form-field col-lg-6">
                             <input name="name" id="name" className="input-text js-input" type="text" required />
                             <label className="label" for="name">Name</label>
