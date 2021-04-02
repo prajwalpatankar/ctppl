@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form1 from './Form1';
 import '../App.css'
 
 // const encode = (data) => {
@@ -29,7 +30,6 @@ class Contact extends Component {
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        const { name, email, phone, company, message } = this.state;
         return (
             <div ><br /><br />
                 <div className="row"> 
@@ -64,38 +64,7 @@ class Contact extends Component {
                     <h6 className="title-description">Fill in your details and we'll get back to you shortly</h6>
                 </div>
                 <br />
-                <div className="get-in-touch">
-                    <form name="contact_1" method="post" data-netlify="true" onSubmit="submit" className="contact-form row" data-aos="fade-up">
-
-                        <div className="form-field col-lg-6">
-                            <input type="hidden" name="form-name" value="contact_1" />
-                        </div>
-                        <div className="form-field col-lg-6"> </div>
-                        <div className="form-field col-lg-6">
-                            <input name="name" id="name" value={name} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" htmlFor="name">Name</label>
-                        </div>
-                        <div className="form-field col-lg-6 ">
-                            <input name="email" id="email" value={email} onChange={this.handleChange} className="input-text js-input" type="email" required />
-                            <label className="label" htmlFor="email">E-mail</label>
-                        </div>
-                        <div className="form-field col-lg-6 ">
-                            <input name="phone" id="phone" value={phone} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" htmlFor="phone">Contact Number</label>
-                        </div>
-                        <div className="form-field col-lg-6 ">
-                            <input name="company" id="company" value={company} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" htmlFor="company">City</label>
-                        </div>
-                        <div className="form-field col-lg-12">
-                            <input name="message" id="message" value={message} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" htmlFor="message">Particular</label>
-                        </div>
-                        <div className="form-field col-lg-12">
-                            <input className="submit-btn" type="submit" value="Submit" />
-                        </div>
-                    </form>
-                </div>
+                <Form1 />
             </div>
         );
     }
