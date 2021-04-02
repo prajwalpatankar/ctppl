@@ -14,12 +14,13 @@ class Contact extends Component {
     }
     
     handleSubmit = e => {
+        console.log(this.state)
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contact", ...this.state })
         })
-          .then(() => alert("Success!"))
+          .then(() => alert("Your response was submitted. Thank you!"))
           .catch(error => alert(error));
   
         e.preventDefault();
@@ -64,26 +65,31 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" onSubmit={this.handleSubmit}>
+                    <form className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit={this.handleSubmit}>
+
+                        <div className="form-field col-lg-6">
+                            <input type="hidden" name="form-name" value="contact 1" />
+                        </div>
+                        <div className="form-field col-lg-6"> </div>
                         <div className="form-field col-lg-6">
                             <input name="name" id="name" value={name} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" for="name">Name</label>
+                            <label className="label" htmlFor="name">Name</label>
                         </div>
                         <div className="form-field col-lg-6 ">
                             <input name="email" id="email" value={email} onChange={this.handleChange} className="input-text js-input" type="email" required />
-                            <label className="label" for="email">E-mail</label>
+                            <label className="label" htmlFor="email">E-mail</label>
                         </div>
                         <div className="form-field col-lg-6 ">
                             <input name="phone" id="phone" value={phone} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" for="phone">Contact Number</label>
+                            <label className="label" htmlFor="phone">Contact Number</label>
                         </div>
                         <div className="form-field col-lg-6 ">
                             <input name="company" id="company" value={company} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" for="company">City</label>
+                            <label className="label" htmlFor="company">City</label>
                         </div>
                         <div className="form-field col-lg-12">
                             <input name="message" id="message" value={message} onChange={this.handleChange} className="input-text js-input" type="text" required />
-                            <label className="label" for="message">Particular</label>
+                            <label className="label" htmlFor="message">Particular</label>
                         </div>
                         <div className="form-field col-lg-12">
                             <input className="submit-btn" type="submit" value="Submit" />
