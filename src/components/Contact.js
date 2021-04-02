@@ -65,7 +65,7 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit={this.handleSubmit}>
+                    <form className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit="submit">
 
                         <div className="form-field col-lg-6">
                             <input type="hidden" name="form-name" value="contact 1" />
