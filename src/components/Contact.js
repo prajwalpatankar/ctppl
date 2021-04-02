@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css'
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-}
+// const encode = (data) => {
+//     return Object.keys(data)
+//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//         .join("&");
+// }
 
 class Contact extends Component {
     constructor(props) {
@@ -13,18 +13,18 @@ class Contact extends Component {
         this.state = { name: "", email: "", phone: "", company: "", message: "" };
     }
     
-    handleSubmit = e => {
-        console.log(this.state)
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", ...this.state })
-        })
-          .then(() => alert("Your response was submitted. Thank you!"))
-          .catch(error => alert(error));
+    // handleSubmit = e => {
+    //     console.log(this.state)
+    //     fetch("/", {
+    //       method: "POST",
+    //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //       body: encode({ "form-name": "contact", ...this.state })
+    //     })
+    //       .then(() => alert("Your response was submitted. Thank you!"))
+    //       .catch(error => alert(error));
   
-        e.preventDefault();
-    };
+    //     e.preventDefault();
+    // };
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
@@ -65,10 +65,10 @@ class Contact extends Component {
                 </div>
                 <br />
                 <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit="submit">
+                    <form name="contact_1" method="post" data-netlify="true" onSubmit="submit" className="contact-form row" data-aos="fade-up">
 
                         <div className="form-field col-lg-6">
-                            <input type="hidden" name="form-name" value="contact 1" />
+                            <input type="hidden" name="form-name" value="contact_1" />
                         </div>
                         <div className="form-field col-lg-6"> </div>
                         <div className="form-field col-lg-6">
