@@ -3,7 +3,7 @@ import React from 'react';
 export default function Form() {
     return (
         <div>
-            <form name="contact_1" method="post" data-netlify="true" onSubmit="submit">
+            <form name="contact_1" method="POST" action="/ContactUs:1" data-netlify="true" onSubmit="submit">
                 <input type="hidden" name="form-name" value="contact_1" />
                 <div>
                 <label>Name
