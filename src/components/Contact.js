@@ -1,36 +1,36 @@
 import React, { Component } from 'react';
-import Form1 from './Form1';
+// import Form1 from './Form1';
 import '../App.css'
 
-// const encode = (data) => {
-//     return Object.keys(data)
-//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-//         .join("&");
-// }
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+}
 
 class Contact extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = { name: "", email: "", phone: "", company: "", message: "" };
-    // }
+    constructor(props) {
+        super(props);
+        this.state = { name: "", email: "", phone: "", company: "", message: "" };
+    }
     
-    // handleSubmit = e => {
-    //     console.log(this.state)
-    //     fetch("/", {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //       body: encode({ "form-name": "contact", ...this.state })
-    //     })
-    //       .then(() => alert("Your response was submitted. Thank you!"))
-    //       .catch(error => alert(error));
+    handleSubmit = e => {
+        console.log(this.state)
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...this.state })
+        })
+          .then(() => alert("Your response was submitted. Thank you!"))
+          .catch(error => alert(error));
   
-    //     e.preventDefault();
-    // };
+        e.preventDefault();
+    };
 
-    // handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        // const { name, email, phone, company, message } = this.state;
+        const { name, email, phone, company, message } = this.state;
         return (
             <div ><br /><br />
                 <div className="row"> 
@@ -65,39 +65,39 @@ class Contact extends Component {
                     <h6 className="title-description">Fill in your details and we'll get back to you shortly</h6>
                 </div>
                 <br />
-                <Form1 />
-                {/* <div className="get-in-touch">
-                    <form className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit={this.handleSubmit}>
+                {/* <Form1 /> */}
+                <div className="get-in-touch">
+                    <form name="contact_1" className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit={this.handleSubmit}>
 
                         <div className="form-field col-lg-6">
-                            <input type="hidden" name="form-name" value="contact 1" />
+                            <input type="hidden" name="form-name" value="contact_1" />
                         </div>
                         <div className="form-field col-lg-6"> </div>
                         <div className="form-field col-lg-6">
-                            <input name="name" id="name" value={name} onChange={this.handleChange} className="input-text js-input" type="text" required />
                             <label className="label" htmlFor="name">Name</label>
+                            <input name="name" id="name" value={name} onChange={this.handleChange} className="input-text js-input" type="text" required />
                         </div>
                         <div className="form-field col-lg-6 ">
-                            <input name="email" id="email" value={email} onChange={this.handleChange} className="input-text js-input" type="email" required />
                             <label className="label" htmlFor="email">E-mail</label>
+                            <input name="email" id="email" value={email} onChange={this.handleChange} className="input-text js-input" type="email" required />
                         </div>
                         <div className="form-field col-lg-6 ">
-                            <input name="phone" id="phone" value={phone} onChange={this.handleChange} className="input-text js-input" type="text" required />
                             <label className="label" htmlFor="phone">Contact Number</label>
+                            <input name="phone" id="phone" value={phone} onChange={this.handleChange} className="input-text js-input" type="text" required />
                         </div>
                         <div className="form-field col-lg-6 ">
-                            <input name="company" id="company" value={company} onChange={this.handleChange} className="input-text js-input" type="text" required />
                             <label className="label" htmlFor="company">City</label>
+                            <input name="company" id="company" value={company} onChange={this.handleChange} className="input-text js-input" type="text" required />
                         </div>
                         <div className="form-field col-lg-12">
-                            <input name="message" id="message" value={message} onChange={this.handleChange} className="input-text js-input" type="text" required />
                             <label className="label" htmlFor="message">Particular</label>
+                            <input name="message" id="message" value={message} onChange={this.handleChange} className="input-text js-input" type="text" required />
                         </div>
                         <div className="form-field col-lg-12">
                             <input className="submit-btn" type="submit" value="Submit" />
                         </div>
                     </form>
-                </div> */}
+                </div>
             </div>
         );
     }
