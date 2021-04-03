@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../../App.css'
 
 class Footer extends Component {
@@ -64,9 +64,9 @@ class Footer extends Component {
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
                         {/* <Link to="/" className="twitter"><i className="bx bxl-twitter"></i></Link>
                         <Link to="/" className="facebook"><i className="bx bxl-facebook"></i></Link> */}
-                        <Link to="/" className="instagram"><i className="bx bxl-instagram"></i></Link>
+                        <a href="https://www.instagram.com/patankars_creative_turnkey/"  target="_blank" rel="noreferrer" className="instagram"><i className="bx bxl-instagram"></i></a>
                         {/* <Link to="/" className="google-plus"><i className="bx bxl-skype"></i></Link> */}
-                        <Link to="/" className="linkedin"><i className="bx bxl-linkedin"></i></Link>
+                        {/* <Link to="/" className="linkedin"><i className="bx bxl-linkedin"></i></Link> */}
                     </div>
                 </div>
             </footer>

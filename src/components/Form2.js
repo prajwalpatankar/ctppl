@@ -9,7 +9,7 @@ export default function Form2() {
         <input type="text" name="message" />
     </form>
     return <div className="get-in-touch">
-        <form name="contact2" data-netlify="true" method="post" className="contact-form row" data-aos="fade-up"  onSubmit="submit">
+        <form name="contact2" data-netlify="true" method="post" className="contact-form row" data-aos="fade-up"  onSubmit="submit" data-netlify-honeypot="bot-field">
             <div className="form-field col-lg-6">
                 <input type="hidden" name="form-name" value="contact2" />
             </div>

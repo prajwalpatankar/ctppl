@@ -63,12 +63,12 @@ class AboutUs extends Component {
                     </div>
                 </div>
                 <br /><br /><br />
-                <hr />
-                <div className="section-title">
+                <div className="section-title section-bg">
+                    <hr />
                     <h2 className="page-title">Our Leaders</h2>
                     <p>The backbone</p>
-                </div><br /><br /><br />
-                <div className="row" data-aos="fade-up">
+                </div>
+                <div className="row section-bg" data-aos="fade-up">
                     <div className="col-md-2">
                         <p>&nbsp;</p>
                     </div>
@@ -76,7 +76,7 @@ class AboutUs extends Component {
                         <img className="profile-photos" src="assets/img/team/pp.jpg" height="190px" width="190px" alt="prakash_patankar" /> <br /><br />
                         <h2>Prakash Patankar</h2>
                         <h6>D I R E C T O R</h6><br /><br /><br />
-                        <p>With a reach experience of over 29+ years in infrastructure development / IT Companies / Institutional segments, Mr. Prakash Patankar focusing on innovation in design and energy efficiency. He plays pivotal roles in execution of the projects and also in creating futuristic, eco-safe structures that gracefully rise above the landscape. With a firm grip on the ground realities of the construction industry along-with his expertise indeed adds value to every projects. <br /><br />He is an excellent leader who continuously motivates our team to achieve new challenges. He plays an influential and prominent role in augmenting the product delivery levels of the company, attainment of superior standards of quality and client relationship management. </p>
+                        <p>With a reach experience of over 29+ years in infrastructure development / IT Companies / Institutional segments, Mr. Prakash Patankar focusing on innovation in design and energy efficiency. He plays pivotal roles in execution of the projects and also in creating futuristic, eco-safe structures that gracefully rise above the landscape. With a firm grip on the ground realities of the construction industry along-with his expertise indeed adds value to every projects. <br /><br />He is an excellent leader who continuously motivates our team to achieve new challenges. He plays an influential and prominent role in augmenting the product delivery levels of the company, attainment of superior standards of quality and client relationship management. </p>                <br /><br />
                     </div>
                     <div className="col-md-4 col-sm-12 vm-even">
                         <img className="profile-photos" src="assets/img/team/DSC_4152a.jpg" height="190px" width="190px" alt="aniket_patankar" /> <br /><br />
@@ -90,7 +90,7 @@ class AboutUs extends Component {
                         <p>&nbsp;</p>
                     </div>
                 </div>
-                <br /><br />
+
                 <hr />
                 <div className="section-title">
                     <h2 className="page-title">Certifications and Awards</h2>
@@ -125,12 +125,12 @@ class AboutUs extends Component {
                 </div>
 
                 <br /><br />
-                <hr />
-                <div className="section-title">
+                
+                <div className="section-title section-bg"><hr />
                     <h2 className="page-title">Machinery Available</h2>
                     <p>List of Machinery Available with us</p>
                 </div>
-                <div className="row" data-aos="fade-up">
+                <div className="row section-bg " data-aos="fade-up">
                     <div className="col-lg-2 col-md-1">
                         <p>&nbsp;</p>
                     </div>

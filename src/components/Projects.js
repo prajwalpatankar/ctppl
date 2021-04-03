@@ -48,7 +48,7 @@ class Projects extends Component {
             projects=<OnGoing />
         }
         return (
-            <div id="projects" className="projects"> 
+            <div id="projects" className="projects section-bg"> 
                 <br /><br /><br />
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">

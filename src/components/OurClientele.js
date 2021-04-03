@@ -315,7 +315,7 @@ class OurClientele extends Component {
         })
         return (
             <div>
-                <div className="clientele" data-aos="fade-up" >
+                <div className="clientele section-bg" data-aos="fade-up" >
                     <br /><br /><br /><br /><br /><br />
                     <div className="section-title">
                         <h2 className="page-title ">Our Clients</h2>

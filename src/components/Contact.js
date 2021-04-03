@@ -17,7 +17,7 @@ class Contact extends Component {
     render() {
         return (
             <div ><br /><br />
-                <div className="row"> 
+                <div className="row "> 
                     <div className="col-md-2" >
                         <p>&nbsp;</p>
                     </div>
@@ -41,14 +41,13 @@ class Contact extends Component {
                         <p>&nbsp;</p>
                     </div>
                 </div>
-                <br /><br />
+                <br />
                 <hr />
 
-                <div className="section-title" data-aos="fade-up">
+                <div className="section-title " data-aos="fade-up">
                     <h3 className="page-title ">Still have Doubt ?</h3>
                     <h6 className="title-description">Fill in your details and we'll get back to you shortly</h6>
                 </div>
-                <br />
                 <Form1 />
                 {/* <div className="get-in-touch">
                     <form name="contact_1" className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit="submit">

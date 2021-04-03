@@ -1,17 +1,6 @@
 import React from 'react';
 
 export default function Form1() {
-    // const handleSubmit = e => {
-    //     fetch("/", {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //       body: {},
-    //     })
-    //       .then(() => alert("Success!"))
-    //       .catch(error => alert(error));
-
-    //     e.preventDefault();
-    //   };
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
@@ -20,7 +9,7 @@ export default function Form1() {
         <input type="text" name="message" />
     </form>
     return <div className="get-in-touch">
-        <form name="contact" data-netlify="true" method="post" className="contact-form row" data-aos="fade-up"  onSubmit="submit">
+        <form name="contact" data-netlify="true" method="post" className="contact-form row" data-aos="fade-up"  onSubmit="submit" data-netlify-honeypot="bot-field">
             <div className="form-field col-lg-6">
                 <input type="hidden" name="form-name" value="contact" />
             </div>
