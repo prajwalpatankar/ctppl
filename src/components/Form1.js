@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Form() {
     return (
-            <form name="contact_1" method="POST" action="/ContactUs:1" data-netlify="true" onSubmit="submit">
-                <input type="hidden" name="form-name" value="contact_1" />
+            <form name="contact" method="post" data-netlify="true" onSubmit="submit">
+                <input type="hidden" name="form-name" value="contact" /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <div>
                 <label>Name
-                <input id="name" name="name" type="text" required />     </label>               
+                <input id="name" name="name" type="text" required /></label>               
                 </div>
-                    <button type="submit">Submit</button>
+                <button type="submit">Submit</button>
             </form>
     )
 

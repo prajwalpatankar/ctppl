@@ -16,6 +16,8 @@ import Requisition from './components/backend/Requisition';
 import RequisitionSite from './components/backend/Requisition_site';
 import 'antd/dist/antd.css'; 
 
+import Form1 from './components/Form1';
+
 function App() {
   return (
     <BrowserRouter>
@@ -31,6 +33,7 @@ function App() {
           <Route path='/Completed' component={Completed} />
           <Route path='/ContactUs:completed' component={ContactMain} />
           <Route path='/Projects:completed' component={Projects} />
+          <Route path='/Form' component={Form1} />
           
           <Route path='/master' component={Master} />
           <Route path='/req' component={Requisition} />
