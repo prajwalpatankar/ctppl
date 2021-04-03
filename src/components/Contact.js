@@ -2,16 +2,9 @@ import React, { Component } from 'react';
 import Form1 from './Form1';
 import '../App.css'
 
-// const encode = (data) => {
-//     return Object.keys(data)
-//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-//         .join("&");
-// }
-
 class Contact extends Component {
     constructor(props) {
         super(props);
-        // this.state = { name: "", email: "", phone: "", company: "", message: "" };
         <form name="contact" netlify netlify-honeypot="bot-field" hidden>
             <input type="text" name="name" />
             <input type="email" name="email" />
@@ -21,25 +14,7 @@ class Contact extends Component {
         </form>
     }
     
-    // handleSubmit = e => {
-    //     console.log(this.state)
-    //     fetch("/", {
-    //       method: "POST",
-    //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //       body: encode({ "form-name": "contact", ...this.state })
-    //     })
-    //       .then(() => alert("Your response was submitted. Thank you!"))
-    //       .catch(error => alert(error));
-  
-    //     e.preventDefault();
-    // };
-
-    // handleChange = e => this.setState({ [e.target.name]: e.target.value });
-    
-    
-
     render() {
-        // const { name, email, phone, company, message } = this.state;
         return (
             <div ><br /><br />
                 <div className="row"> 

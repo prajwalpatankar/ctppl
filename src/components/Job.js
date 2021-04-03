@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form2 from './Form2';
 import '../App.css';
 
 class Job extends Component {
@@ -30,9 +31,9 @@ class Job extends Component {
                     </div>
                     <div className="col-lg-3"></div>
                 </div>
-
-                <div className="get-in-touch">
-                    <form className="contact-form row">
+                <Form2 />
+                {/* <div className="get-in-touch">
+                    <form className="contact-form row" action="POST" data-netlify="true">
                         <div className="form-field col-lg-6">
                             <input name="name" id="name" className="input-text js-input" type="text" required />
                             <label className="label" for="name">Name</label>
@@ -57,7 +58,7 @@ class Job extends Component {
                             <input className="submit-btn" type="submit" value="Submit" />
                         </div>
                     </form>
-                </div>
+                </div> */}
                 <br />
             </div>
         );
