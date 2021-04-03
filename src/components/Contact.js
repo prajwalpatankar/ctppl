@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Form1 from './Form1';
+import Form1 from './Form1';
 import '../App.css'
 
 // const encode = (data) => {
@@ -74,8 +74,8 @@ class Contact extends Component {
                     <h6 className="title-description">Fill in your details and we'll get back to you shortly</h6>
                 </div>
                 <br />
-                {/* <Form1 /> */}
-                <div className="get-in-touch">
+                <Form1 />
+                {/* <div className="get-in-touch">
                     <form name="contact_1" className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit="submit">
 
                         <div className="form-field col-lg-6">
@@ -106,7 +106,7 @@ class Contact extends Component {
                             <input className="submit-btn" type="submit" value="Submit" />
                         </div>
                     </form>
-                </div>
+                </div> */}
             </div>
         );
     }
