@@ -20,7 +20,7 @@ export default function Form1() {
         <input type="text" name="message" />
     </form>
     return <div className="get-in-touch">
-        <form name="contact" className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit="submit">
+        <form name="contact" data-netlify="true" method="post" className="contact-form row" data-aos="fade-up"  onSubmit="submit">
             <div className="form-field col-lg-6">
                 <input type="hidden" name="form-name" value="contact" />
             </div>
