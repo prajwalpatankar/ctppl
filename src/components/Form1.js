@@ -46,7 +46,7 @@ export default function Form1() {
                 <input name="message" id="message" className="input-text js-input" type="text" required />
             </div>
             <div className="form-field col-lg-12">
-                <input className="submit-btn" type="submit" value="Submit" />
+                <button className="submit-btn" type="submit">Submit</button>
             </div>
         </form>
     </div>
