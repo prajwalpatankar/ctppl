@@ -1,15 +1,16 @@
 import React from 'react';
 
 export default function Form() {
-    return (
-            <form name="contact" method="post" data-netlify="true" onSubmit="submit">
+    return 
+        <div>
+            <form name="contact" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <div>
+                <p>
                 <label>Name
-                <input id="name" name="name" type="text" required /></label>               
-                </div>
+                <input name="name" type="text" /></label>               
+                </p>
                 <button type="submit">Submit</button>
             </form>
-    )
+    </div>
 
 }
