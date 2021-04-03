@@ -1,36 +1,36 @@
 import React, { Component } from 'react';
-// import Form1 from './Form1';
+import Form1 from './Form1';
 import '../App.css'
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-}
+// const encode = (data) => {
+//     return Object.keys(data)
+//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//         .join("&");
+// }
 
 class Contact extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { name: "", email: "", phone: "", company: "", message: "" };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = { name: "", email: "", phone: "", company: "", message: "" };
+    // }
     
-    handleSubmit = e => {
-        console.log(this.state)
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "contact", ...this.state })
-        })
-          .then(() => alert("Your response was submitted. Thank you!"))
-          .catch(error => alert(error));
+    // handleSubmit = e => {
+    //     console.log(this.state)
+    //     fetch("/", {
+    //       method: "POST",
+    //       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //       body: encode({ "form-name": "contact", ...this.state })
+    //     })
+    //       .then(() => alert("Your response was submitted. Thank you!"))
+    //       .catch(error => alert(error));
   
-        e.preventDefault();
-    };
+    //     e.preventDefault();
+    // };
 
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    // handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-        const { name, email, phone, company, message } = this.state;
+        //const { name, email, phone, company, message } = this.state;
         return (
             <div ><br /><br />
                 <div className="row"> 
@@ -65,8 +65,8 @@ class Contact extends Component {
                     <h6 className="title-description">Fill in your details and we'll get back to you shortly</h6>
                 </div>
                 <br />
-                {/* <Form1 /> */}
-                <div className="get-in-touch">
+                <Form1 />
+                {/* <div className="get-in-touch">
                     <form name="contact_1" className="contact-form row" data-aos="fade-up" data-netlify="true" onSubmit={this.handleSubmit}>
 
                         <div className="form-field col-lg-6">
@@ -97,7 +97,7 @@ class Contact extends Component {
                             <input className="submit-btn" type="submit" value="Submit" />
                         </div>
                     </form>
-                </div>
+                </div> */}
             </div>
         );
     }
