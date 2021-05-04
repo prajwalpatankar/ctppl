@@ -27,7 +27,7 @@ class OnGoing extends Component {
                     id: 7,
                     name: "Garware Bestretch, Wai",
                     type: 2, 
-                    desc : "Industrial Sheds| Cost - 900 Lacs ",
+                    desc : "Industrial Sheds| Cost - 700 Lacs ",
                     img: "" 
                 },
             ],
