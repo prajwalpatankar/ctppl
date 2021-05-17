@@ -29,6 +29,7 @@ class OnGoing extends Component {
                     type: 2, 
                     desc : "Industrial Sheds| Cost - 900 Lacs ",
                     img: "assets/img/projects/garware.jpg" 
+
                 },
             ],
             residential: [

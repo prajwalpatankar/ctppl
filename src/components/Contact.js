@@ -30,7 +30,7 @@ class Contact extends Component {
                         <p>10.00 am to 7.00 pm<br />Monday to Saturday</p>
                         <br />
                         <h3>Contact Details </h3>
-                        <p><strong>Phone:</strong> +91-9767726744<br /><strong>Email:</strong> prakash.patankar@ctppl.com <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; aniket.patankar@ctppl.com</p>
+                        <p><strong>Phone:</strong> +91-9767726744<br /><strong>Email:</strong> prakash@patankarscreative.com <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aniket@patankarscreative.com</p>
 
 
                     </div>
