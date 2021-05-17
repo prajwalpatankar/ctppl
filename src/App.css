@@ -1461,3 +1461,17 @@ section {
   padding-left: 80px;
 }
 
+
+
+
+
+/* BACKEND  */
+
+
+
+.App-mis {
+  /* text-align: center; */
+  font-family: 'Noto Sans HK', sans-serif;
+  background-color: rgb(253, 253, 253);
+  overflow-x: hidden; 
+}

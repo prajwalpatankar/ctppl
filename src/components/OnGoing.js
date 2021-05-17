@@ -28,7 +28,7 @@ class OnGoing extends Component {
                     name: "Garware Bestretch, Wai",
                     type: 2, 
                     desc : "Industrial Sheds| Cost - 900 Lacs ",
-                    img: "" 
+                    img: "assets/img/projects/garware.jpg" 
                 },
             ],
             residential: [
@@ -44,7 +44,7 @@ class OnGoing extends Component {
                     name: "Godrej Elements, Pune",
                     type: 2, 
                     desc : "Residential projects | cost- 1021 Lacs | consultant- Kapadia Associates, | Location- Hinjewadi Pune",
-                    img: "assets/img/projects/Godrej-elements.jpg"
+                    img: "assets/img/projects/elements.jpg"
                 },
                 {
                     id: 3,

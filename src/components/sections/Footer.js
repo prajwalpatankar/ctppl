@@ -42,7 +42,7 @@ class Footer extends Component {
                                     spandan office no.8,<br />above state bank of india,<br /> opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />411 058, Warje, Pune, Maharashtra 411058
                                     </a><br /><br />
                                     <strong>Phone:</strong> +91 9767726744<br />
-                                    <strong>Email:</strong> prakash.patankar@ctppl.com<br />
+                                    <strong>Email:</strong> prakash@patankarscreative.com<br />
                                 </p>
                             </div>
 

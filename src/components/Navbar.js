@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import ReactNavbar from "react-responsive-animate-navbar";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import logo from './../logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../App.css';
 
@@ -20,7 +18,7 @@ class Navbar1 extends Component {
                 isMobile: window.innerWidth < 1000
             });
         }, false);
-        console.log(this.state.isMobile);
+
     }
 
     render() {
@@ -54,7 +52,6 @@ class Navbar1 extends Component {
             )
         }
         else {
-
             return (
                 <div>
                     <header id="header" className="fixed-top">
@@ -84,8 +81,6 @@ class Navbar1 extends Component {
                         </div>
                     </header>
                 </div>
-
-
             );
         }
     }
