@@ -56,7 +56,7 @@ function App() {
     //   <RouterMain />      
     // </div>
     <BrowserRouter>
-      <div className="App-mis">
+      <div className="App">
         <Navbar1 />
         {/* <NavbarMis /> */}
         <Switch >
