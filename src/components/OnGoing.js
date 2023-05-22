@@ -10,36 +10,28 @@ class OnGoing extends Component {
         this.state = {
             industrial: [
                 {
-                    id: 5,
-                    name: "Sudarshan Chemicals Ltd., Mahad",
-                    type: 1, 
-                    desc : "Industrial Sheds | Cost - 500 Lacs ",
-                    img: "" 
-                },
-                {
-                    id: 6,
-                    name: "Sudarshan Chemicals Ltd., Roha",
-                    type: 2, 
-                    desc : "Industrial Sheds| Cost - 800 Lacs ",
-                    img: "" 
-                },
-                {
-                    id: 7,
+                    id: 3,
                     name: "Garware Bestretch, Wai",
                     type: 2, 
                     desc : "Industrial Sheds| Cost - 900 Lacs ",
                     img: "assets/img/projects/garware-bestrec.jpg" 
-
+                },
+                {
+                    id: 3,
+                    name: "VTP Pegasus",
+                    type: 2, 
+                    desc : "Scope - Podium Core & Shell works | Cost - 540 Lacs | Location - Manjri, Pune",
+                    img: "assets/img/projects/VTP Pegasus.jpeg" 
+                },
+                {
+                    id: 3,
+                    name: "Exide Industries Ltd.",
+                    type: 2, 
+                    desc : "Scope - Extension of Submarine Shed | Cost - 400 Lacs | Location- Taloja, Pune",
+                    img: "assets/img/projects/garware-bestrec.jpg" 
                 },
             ],
             residential: [
-                {
-                    id: 1,
-                    name: "Yashvastu Parkland, Pune",
-                    type: 2, 
-                    desc : "For Yashvastu Developers. | Area - 5,00,000sq.ft | Cost - 4250 Lacs | Consultant -Fidesto Projects Pvt. Ltd",
-                    img: "assets/img/projects/Parkland-New-190719.jpg"
-                },
                 {
                     id: 2,
                     name: "Godrej Elements, Pune",
@@ -48,35 +40,48 @@ class OnGoing extends Component {
                     img: "assets/img/projects/elements.jpg"
                 },
                 {
-                    id: 3,
-                    name: "Madhukosh, Pune",
-                    type: 2, 
-                    desc : "Residential Project | Area: 1,50,000 sq. ft | Cost: 1471 Lacs | Architect: Nitin Joshi | Client: Fidesto Projects Private Limited | PMC: FABS | Location: Balewadi, Pune",
-                    img: "assets/img/projects/Madhukosh-Balewadi-ongoing.jpg"
-                },
-                {
-                    id: 4,
-                    name: "Godrej Greens, Pune",
-                    type: 2, 
-                    desc : "Residential Project | Finishing Work | Cost: 1000 Lacs | Client: Godrej Properties Limited | Location: Kondhwa, Pune",
-                    img: "assets/img/projects/godrej-greens.jpg" 
-                },
-                {
                     id: 5,
                     name: "Godrej Park Greens, Pune",
                     type: 2, 
-                    desc : "Residential Project | Finishing Work | Cost: 850 Lacs | Client: Godrej Properties Limited | Location: Mamurdi, Pune",
-                    img: "assets/img/projects/godrej-park-greens.jpg" 
+                    desc : "Residential Project | Finishing Work | Cost: 850 Lacs | Client - Godrej Properties Limited | Location: Mamurdi, Pune",
+                    img: "assets/img/projects/Godrej Greens.jpg" 
+                },
+                {
+                    id: 5,
+                    name: "Godrej Nurture",
+                    type: 2, 
+                    desc : "Residential Project | Scope -  Tower finishing works | Cost- 720 Lacs | Client - Godrej Properties Limited | Location- Mamurdi, Pune.",
+                    img: "assets/img/projects/godrej nurture.jpeg" 
+                },
+                {
+                    id: 5,
+                    name: "Avante Spaces Ltd by Kirloskar",
+                    type: 2, 
+                    desc : "Residential Project | Scope -  Landscape, Hardscape & Softscape development for Commercial Building | Cost - 300 Lacs | Client - Godrej Properties Limited | Location- Kothrud, Pune",
+                    img: "" 
+                },
+                {
+                    id: 5,
+                    name: "Isprava Vesta Pvt. Ltd.",
+                    type: 2, 
+                    desc : "Residential Project | Scope - Core & Shell works for Luxury Bungalows & Infra works | Cost - 740 Lacs | Client - Godrej Properties Limited | Location- Moira, Goa.",
+                    img: "" 
                 },
             ],
             itbuildings: [
+                {
+                    id: 3,
+                    name: "Solitaire Business Hub",
+                    type: 2, 
+                    desc : "Scope - Finishing & Infra works| Cost - 640 Lacs | Location - Baner, Pune",
+                    img: "" 
+                },
             ],
             mep: [
                 
             ]
         }
     }
-
 
     render() {
         let industrial = this.state.industrial.map(person => {
@@ -127,22 +132,22 @@ class OnGoing extends Component {
                 )
             }
         })
-        // let itbuildings = this.state.itbuildings.map(person => {
-        //     if(person.img !== "") {
-        //         return (
-        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-        //                 <ProjectCard key={person.id} person={person} />
-        //             </Col>
-        //         )
-        //     }
-        //     else {
-        //         return (
-        //             <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
-        //                 <NoImageCard key={person.id} person={person} />
-        //             </Col>
-        //         )
-        //     }
-        // })
+        let itbuildings = this.state.itbuildings.map(person => {
+            if(person.img !== "") {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <ProjectCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+            else {
+                return (
+                    <Col lg="4" md= "12" sm= "12" data-aos="fade-up">
+                        <NoImageCard key={person.id} person={person} />
+                    </Col>
+                )
+            }
+        })
         // let mep = this.state.mep.map(person => {
         //     if(person.img !== "") {
         //         return (
@@ -183,13 +188,13 @@ class OnGoing extends Component {
                     </Row>
                 </Container>
                 <br /><hr /><br />
-                {/* <h1><strong data-aos="fade-up">IT Buildings</strong></h1>
+                <h1><strong data-aos="fade-up">IT Buildings</strong></h1>
                 <Container fluid data-aos="fade-up" data-aos-delay="200">
                     <Row>                        
                         {itbuildings}                        
                     </Row>
                 </Container>
-                <br /><hr /><br /> */}
+                <br /><hr /><br />
                 {/* <h1><strong data-aos="fade-up">MEP Projects</strong></h1>
                 <Container fluid data-aos="fade-up" data-aos-delay="200">
                     <Row>                        

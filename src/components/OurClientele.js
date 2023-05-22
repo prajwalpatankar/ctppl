@@ -10,6 +10,11 @@ class OurClientele extends Component {
         this.state = {
             people: [
                 {
+                    id: 56,
+                    name: "",
+                    img: "assets/img/clients/garware.jpeg"
+                },
+                {
                     id: 1,
                     name: "",
                     img: "assets/img/clients/John-Deere.jpg"
@@ -19,11 +24,11 @@ class OurClientele extends Component {
                     name: "",
                     img: "assets/img/clients/Fiat.jpg"
                 },
-                {
-                    id: 3,
-                    name: "",
-                    img: "assets/img/clients/Kumar.jpg"
-                },
+                // {
+                //     id: 3,
+                //     name: "",
+                //     img: "assets/img/clients/Kumar.jpg"
+                // },
                 {
                     id: 4,
                     name: "",

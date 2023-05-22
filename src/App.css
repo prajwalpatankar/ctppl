@@ -146,9 +146,10 @@
 
 .project-btns {
   border: 0px;
+  border-radius: 15px;
   outline: none;
   color: #20B2CE;
-  background-color: #fdfdfd;
+  background-color: #f8fbfe;
   transition: transform 0.5s, opacity 0.5s;
 }
 
@@ -159,9 +160,10 @@
 .project-btns-active {
   border: 0px;
   border-bottom: 2px solid;
+  border-radius: 10px;
   outline: none;
   color: #20B2CE;
-  background-color: #fdfdfd;
+  background-color: #f8fbfe;
   transition: transform 0.5s, opacity 0.5s;
 }
 
