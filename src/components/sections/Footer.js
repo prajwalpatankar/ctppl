@@ -13,10 +13,6 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-4 col-md-6 footer-contact"><br />
                                 <img src="assets/img/final_logo_PNG.png" height="70px" alt="LOGO" />
-                                <br /><br /><br />
-                                <p>A sister concern co.</p>
-                                <img src="assets/img/ctppl_logo.png" height="70px" alt="LOGO" />
-
 
                             </div>
                             
