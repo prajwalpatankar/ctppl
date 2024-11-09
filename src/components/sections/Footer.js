@@ -39,7 +39,7 @@ class Footer extends Component {
                             <div className="col-lg-4 col-md-6 footer-contact">
                                 <h2>PCTPPL</h2>
                                 <p><a href="https://g.page/PCTPPL?share" target="_blank" rel="noreferrer">
-                                    spandan office no.8,<br />above state bank of india,<br /> opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />411 058, Warje, Pune, Maharashtra 411058
+                                    9 Square, Office no 301,<br />3rd Floor,<br />Santosh Nagar, Opposite to Wondercity,<br />Katraj-Duttanagar road,<br />Katraj, Pune, Maharashtra 411046
                                     </a><br /><br />
                                     <strong>Phone:</strong> +91 9767726744<br />
                                     <strong>Email:</strong> prakash@patankarscreative.com<br />
