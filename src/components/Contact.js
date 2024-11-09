@@ -24,7 +24,7 @@ class Contact extends Component {
                     <div className="col-md-4" data-aos="fade-right">
                         <br />
                         <h3>Address</h3>
-                        <p>Spandan office no.8, above state bank of india,<br />opp. mai mangeshkar hospital,<br />Mumbai Bengluru bypass,<br />Warje, Pune, Maharashtra 411058</p>
+                        <p>9 Square, Office no 301,<br />3rd Floor,<br />Santosh Nagar, Opposite to Wondercity,<br />Katraj-Duttanagar road,<br />Katraj, Pune, Maharashtra 411046</p>
                         <br />
                         <h3>Working Hours</h3>
                         <p>10.00 am to 7.00 pm<br />Monday to Saturday</p>
